@@ -5,6 +5,7 @@ var panels = Lens.getDefaultPanels();
   
 // All available converters
 var CustomConverter = require("./custom_converter");
+var BitsConverter = require("./bits_converter");
 
 
 // Custom Panels
@@ -39,7 +40,8 @@ LensApp.Prototype = function() {
 
   this.getConverters = function(converterOptions) {
     return [
-        new CustomConverter(converterOptions)
+        new CustomConverter(converterOptions),
+        new BitsConverter(converterOptions)
 
     ]
   };
@@ -59,3 +61,4 @@ LensApp.prototype = new LensApp.Prototype();
 LensApp.prototype.constructor = LensApp;
 
 module.exports = LensApp;
+

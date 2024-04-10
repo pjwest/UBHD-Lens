@@ -1,0 +1,435 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<book book-type="XML test instance" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/BITS-xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML" xsi:schemaLocation="http://opoce BITS-book-01.07-20160204.xsd" xmlns="http://opoce">
+
+			<!--EXAMPLE Use of book-meta as support for multilanguage publications -->
+	<book-meta>
+		<book-id book-id-type="doi">10.2785/999711</book-id>
+		<book-id book-id-type="Catalog number">KS-GT-15-001-EN-N</book-id>
+		<book-title-group>
+			<book-title>XML Test Instance</book-title>
+			<subtitle>Reference structures</subtitle>
+			<trans-title-group xml:lang="ES">
+				<trans-title>XML Prueba Instancia</trans-title>
+				<trans-subtitle>Estructuras de referencia</trans-subtitle>
+			</trans-title-group>
+			<trans-title-group xml:lang="DE">
+				<trans-title>XML Test Instanz</trans-title>
+				<trans-subtitle>Referenzstrukturen</trans-subtitle>
+			</trans-title-group>
+			<trans-title-group xml:lang="FR">
+				<trans-title>XML test instance</trans-title>
+				<trans-subtitle>Structures de référence</trans-subtitle>
+			</trans-title-group>
+			<trans-title-group xml:lang="IT">
+				<trans-title>Istanza di prova XML</trans-title>
+				<trans-subtitle>Strutture di riferimento</trans-subtitle>
+			</trans-title-group>
+			<trans-title-group xml:lang="PL">
+				<trans-title>Instancja test XML</trans-title>
+				<trans-subtitle>Konstrukcje referencyjne</trans-subtitle>
+			</trans-title-group>
+			<trans-title-group xml:lang="PT">
+				<trans-title>XML Test Instância</trans-title>
+				<trans-subtitle>Estruturas de referência</trans-subtitle>
+			</trans-title-group>
+			<trans-title-group xml:lang="RO">
+				<trans-title>Instanta de test XML</trans-title>
+				<trans-subtitle>Structuri de referinta</trans-subtitle>
+			</trans-title-group>
+		</book-title-group>
+		<contrib-group>
+			<contrib>
+				<role>Administrator</role>
+				<email>admin@publications.europa.eu</email>
+			</contrib>
+		</contrib-group>
+		<pub-date>
+			<year>2016</year>
+		</pub-date>
+		<isbn>978-92-896-1165-7</isbn>
+		<edition>Second Edition</edition>
+		<permissions>
+			<copyright-year>2016</copyright-year>
+			<copyright-holder>Publications Office of the European Union</copyright-holder>
+			<license>
+				<license-p>all rights reserved.</license-p>
+			</license>
+		</permissions>
+		<custom-meta-group>
+			<custom-meta>
+				<meta-name>distributed in</meta-name>
+				<meta-value>European Union</meta-value>
+			</custom-meta>
+		</custom-meta-group>
+	</book-meta>
+	<book-body>
+		<book-part>
+			<!--EXAMPLE Use of book parts as support for publication with components that include own metadata and/or front/back matter -->
+			<book-part-meta>
+				<title-group><title>Part I</title></title-group>
+				<edition>1</edition>
+				<abstract>
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+				</abstract>
+			</book-part-meta>
+			<body>
+				<!--EXAMPLE FOR A SECTION (level 1) -->
+				<sec>
+					<label>Section I</label>
+					<title>Main section including multi level subsections</title>
+					<!--EXAMPLE FOR AN INCLUSION: graphic -->
+					<graphic id="f00" orientation="portrait" position="float" xlink:href="KVAI13001ENC_002-0.jpg"/>
+					<!--EXAMPLE FOR AN INCLUSION: figure + caption-->
+					<fig>
+						<caption>
+							<title>EU budget 2012 — Implemented payments (million EUR)</title>
+						</caption>
+						<graphic id="f01" orientation="portrait" position="float" xlink:href="KVAI13001ENC_002-1.jpg"/>
+					</fig>
+					<!--EXAMPLE FOR A SUB SECTION (nested section - level 2 with notes)-->
+					<sec>
+						<title>Allocation of EU expenditure for 2012 by Member State</title>
+						<p>Allocating expenditure to Member States is merely an accounting exercise
+							that gives a very limited view of the benefits that each Member State
+							derives from the Union. The Commission continues to stress this point at
+							every opportunity. 
+							<fn>
+								<label>(1)</label>
+								<p>A full statement on this policy and its rationale was made in
+									Chapter 2 of the 1998 Commission report ‘Financing of the
+									European Union’ and in ‘Budget contributions, EU expenditure,
+									budgetary balances and relative prosperity of the Member
+									States’, a paper presented by the Commission to the Economic and
+									Financial Affairs Council of 13 October 1997. The Presidency
+									conclusions of the Berlin European Council of 24 and 25 March
+									1999 endorse this principle: ‘[...] it is recognised that the
+									full benefits of Union membership cannot be measured solely in
+									budgetary terms’ (point 68 of the Presidency conclusions).</p>
+							</fn>
+							This accounting allocation, among other drawbacks, is
+							non-exhaustive and gives no indication of many of the other benefits
+							gained from EU policies such as those relating to the internal market
+							and economic integration, not to mention political stability and
+							security.</p>
+						<p>In 2012, a total amount of EUR 126 349.3 million (i.e. 91.11 % of the
+							total implemented EU expenditure, including EFTA contributions and
+							earmarked revenue) was allocated to Member States. See notes in annexed
+							tables for further details on the methodology used for the allocation of
+							expenditure.</p>
+						<!--EXAMPLE FOR ONE INCLUSION FOR THE WHOLE PAGE , -->
+						<fig>
+							<caption>
+								<title>Financial data structure</title>
+							</caption>
+							<graphic id="f02" orientation="portrait" position="float" xlink:href="KVAI13001ENC_002-2.jpg"/>
+						</fig>
+					</sec>
+					<!--FOLLOWING SUB SECTION (nested section - level 2)-->
+					<sec>
+						<title>Allocation of 2012 EU expenditure by heading and by Member
+							State</title>
+						<!--OTHER SUB SECTIONs (nested section - level 3)-->
+						<sec>
+							<title>Methodological note: allocation of expenditure</title>
+							<p>In 2012, total executed EU expenditure amounted to EUR 135 851.6
+								million (excluding EUR 2 831.9 million of expenditure made up of
+								earmarked revenue and including EUR 249.6 million of expenditure
+								made up of EFTA contributions), or EUR 138 683.4 million when
+								including earmarked revenue and that from EFTA, of which EUR 126
+								349.3 million (i.e. 91.1 %) was allocated to Member States and EUR 6
+								239.2 million to non-member countries.</p>
+							<p>Further to this, an amount of EUR 3 263.1 million was allocated to
+								various states, in case of which the country of the final
+								beneficiary cannot be unequivocally determined.</p>
+						</sec>
+						<sec>
+							<title>Methodology</title>
+							<!--OTHER SUB SECTIONs (nested section - level 4) x 3-->
+							<sec>
+								<title>Year of reference</title>
+								<p>Executed and allocated expenditure are actual payments made
+									during a financial year, pursuant to that year’s appropriations
+									or to carry-overs of non-utilised appropriations from the
+									previous year. Expenditure financed from earmarked revenue is
+									presented separately.</p>
+							</sec>
+							<sec>
+								<title>Allocation of expenditure</title>
+								<p>Based on the criteria used for the UK correction, i.e. all
+									possible expenditure must be allocated, except for external
+									actions, pre-accession strategy (if paid to the EU-15),
+									guarantees, reserves and expenditure under earmarked
+									revenue.</p>
+							</sec>
+							<sec>
+								<title>Allocation by Member State</title>
+								<p>Expenditure is allocated to the country in which the principal
+									recipient resides, on the basis of the information available in
+									the Commission’s accounting financial system (ABAC). Some
+									expenditure is not (or is improperly) allocated in ABAC due to
+									conceptual difficulties. In this case, whenever obtained from
+									the corresponding services, additional information is used (e.g.
+									for Galileo, research and administration).</p>
+							</sec>
+						</sec>
+					</sec>
+					<!--SUB SECTION (nested section - level 2)-->
+					<sec>
+						<title>Competitiveness for growth and employment</title>
+						<!--EXAMPLE FOR 4 INCLUSIONS NEXT TO EACH OTHER, with text-->
+						<fig>
+							<graphic id="f04" orientation="portrait" position="float" xlink:href="KVAI13001ENC_002-4.jpg"/>
+							<p>Erasmus celebrated its 25th birthday in 2012. Close to 3 million
+								students from 33 countries and 300 000 university staff have
+								participated in the programme, one of the most successful financed
+								from the EU budget.</p>
+						</fig>
+						<fig>
+							<graphic id="f05" orientation="portrait" position="float" xlink:href="KVAI13001ENC_002-5.jpg"/>
+							<p>Bringing together close to 600 business support organisations from
+								more than 50 countries, the Enterprise Europe Network has helped
+								European small and medium-sized enterprises (SMEs) seize the
+								unparalleled business opportunities of the EU single market.</p>
+						</fig>
+						<fig>
+							<graphic id="f06" orientation="portrait" position="float" xlink:href="KVAI13001ENC_002-6.jpg"/>
+							<p>With EUR 60 million in grants available per year, the Marco Polo
+								programme supports projects enabling freight to switch from road to
+								more environment-friendly means of transport.</p>
+						</fig>
+						<fig>
+							<graphic id="f07" orientation="portrait" position="float" xlink:href="KVAI13001ENC_002-7.jpg"/>
+							<p>Brussels Airport became one of the best served airports by rail in
+								Europe thank to a new rail link connecting it to the major routes of
+								the Belgian railway network and to various European cities.</p>
+						</fig>
+						<p>The expenditure allocated under ‘Competitiveness for growth and
+							employment’ is at the heart of the drive to turn the EU into a smart,
+							sustainable and inclusive economy delivering high levels of employment,
+							productivity and social cohesion. Many of the flagship initiatives set
+							out in the Europe 2020 strategy are covered under this part of the
+							budget, including ‘Innovation union’, ‘Youth on the move’, ‘A
+							resource-efficient Europe’, ‘An agenda for new skills and jobs’ and ‘An
+							industrial policy for the globalisation era’. The main programmes
+							financed under this subheading are the seventh framework programme for
+							research and technological development (FP7), the ‘Lifelong learning’
+							programme (LLP), the ‘Competitiveness and innovation’ programme (CIP),
+							the trans-European networks (TENs), Galileo/EGNOS, Marco Polo II and the
+							‘Progress’ programme. Other actions contributing to the goals of the
+							priority themes of the Europe 2020 strategy concern the following
+							fields: the internal market, statistics, financial services and
+							supervision, the fight against fraud, taxation and the customs
+							union.</p>
+						<!--EXAMPLE FOR 2 INCLUSIONS ON THE SAME PAGE-->
+						<fig>
+							<label>Heading 1a</label>
+							<caption>
+								<title>Implemented payments (million EUR)</title>
+							</caption>
+							<graphic id="f08" orientation="portrait" position="float" xlink:href="KVAI13001ENC_002-8.jpg"/>
+						</fig>
+						<fig>
+							<label>Heading 1a</label>
+							<caption>
+								<title>Expenditure by Member State</title>
+							</caption>
+							<graphic id="f09" orientation="portrait" position="float" xlink:href="KVAI13001ENC_002-9.jpg"/>
+						</fig>
+						<!--SUB SECTION (nested section - level 3)-->
+						<sec>
+							<title>The seventh framework programme for research and technological
+								development (FP7)</title>
+							<p>FP7 covers the TFEU and the European Atomic Energy Community
+								(Euratom) and lasts from 2007 until 2013. The programme’s budget of
+								EUR 55.5 billion represents a substantial increase compared with the
+								sixth framework programme (41 % at 2004 prices), confirming research
+								as a high priority in Europe.</p>
+							<p>This money is (for the most part) being spent on grants to research
+								actors all over Europe and beyond, in order to co-finance research,
+								technological development and demonstration projects. Grants are
+								determined on the basis of calls for proposals and a peer review
+								process, which are highly competitive.</p>
+							<p>In order to complement national research programmes, activities
+								funded from FP7 must have a ‘European added value’. One key aspect
+								of the European added value is the transnationality of many actions:
+								projects are carried out by consortia which include participants
+								from different European (and other) countries; fellowships require
+								mobility over national borders. Indeed, many research challenges are
+								so complex that they can only be addressed at European level. But
+								there is also a new action for ‘individual teams’ with no obligation
+								for transnational cooperation. In this case, the ‘European added
+								value’ lies in raising the competition between scientists in
+								fundamental ‘frontier’ research from the national to the European
+								level.</p>
+							<p>FP7 is both larger and more comprehensive than its predecessors. It
+								is also more flexible, with simplified procedures.</p>
+							<!--SUB SECTION (nested section - level 4)-->
+							<sec>
+								<title>Developments in 2012</title>
+								<p>In 2012, 53 calls for proposals were concluded within FP7. A
+									total of 17 374 eligible proposals were peer reviewed, out of
+									which 3 089 were retained for funding, resulting in a success
+									rate of 17.78 % on a proposal basis.</p>
+								<p>A total of 70 059 applicants took part in all eligible proposals,
+									for a total requested EU contribution of EUR 30.78 billion, of
+									which 14 821 applicants were retained for funding, for a total
+									requested EU contribution of EUR 4.98 billion. The overall
+									success rate was 21.16 % in terms of applicants. It is very
+									close to the overall success rate of FP7 implementation during
+									2007–12 (22 %).</p>
+								<p>Good results have been obtained as regards the mandatory target
+									that 15 % of the cooperation programme budget (with more than 50
+									% of planned resources the largest programme under FP7) should
+									go to SMEs. In 2012, 16.4 % of this budget went to SMEs.</p>
+								<p>A total of EUR 7 853 million was spent on FP7 in 2012.</p>
+								<fig>
+									<caption>
+										<title>Implementation 2007–12 (million EUR)</title>
+									</caption>
+									<graphic id="f10" orientation="portrait" position="float" xlink:href="KVAI13001ENC_002-10.jpg"/>
+								</fig>
+								<!--EXAMPLE OF A TEXT BOX + INCLUSION-->
+								<boxed-text>
+									<sec>
+										<label>Example:</label>
+										<title>Novel immunotherapies for type 1 diabetes — FP7 —
+											Health (project reference: 241447)</title>
+										<fig>
+											<graphic id="f11" orientation="portrait" position="float" xlink:href="KVAI13001ENC_002-11.jpg"/>
+										</fig>
+										<p>As the world’s population grows, so does the increase in
+											the number of new cases of type 1 diabetes mellitus
+											(T1DM) among the very young. Researchers at the EU
+											funded project Naimit are using a genetically modified
+											form of the bacterium Lactococcus lactis to help alter
+											the way the disease contributes to T1DM in children.
+											Success in this research could improve quality of life
+											for millions of people worldwide suffering from this
+											autoimmune disease.</p>
+										<p>The objectives of the projects are to pioneer the concept
+											of tailored interventions with minimal immune system
+											interference in new onset T1DM, leading to beta-cell
+											protection and restoration, based on a solid
+											understanding of the disease pathogenesis. This will
+											enable experimental findings to be adopted for future
+											clinical application.</p>
+										<p>EU contribution: EUR 10 920 800</p>
+									</sec>
+								</boxed-text>
+							</sec>
+						</sec>
+						<!--SUB SECTION (nested section - level 3)-->
+						<sec>
+							<title>ITER (International Thermonuclear Experimental Reactor)</title>
+							<p>ITER plays a major role within the Euratom framework programme. It is
+								being built in southern France and will be jointly operated by seven
+								partners — Euratom, China, India, Japan, Korea, Russia and the
+								United States. The ITER prototype power plant will demonstrate the
+								production of large-scale electrical power by means of fusion
+								technology.</p>
+							<p>In 2012, the European joint undertaking ‘Fusion for energy’ (F4E)
+								achieved significant progress, particularly in the manufacturing of
+								sub-components for the fabrication of the toroidal field coils,
+								progress in the manufacturing of mock-ups and in the qualification
+								of the new precision forming and deep welding of 60 mm-thick steel
+								shell for the fabrication of the vacuum vessel sectors. The works on
+								the Tokamak building foundation, the pit wall and the installation
+								of the anti-seismic foundation pads have been concluded and made
+								ready for the construction in 2013 of the upper reinforced concrete
+								slab.</p>
+							<p>During the year 2012, 54 operational contracts were awarded for a
+								total value of EUR 736 million, including, among others, large
+								contracts with values of more than EUR 5 million.</p>
+							<!--EXAMPLE OF A LIST-->
+							<list list-type="triangle">
+								<list-item>
+									<p>Civil engineering and finishing works for the Tokamak
+										complex, assembly hall and surrounding buildings, including
+										the designing and building of heavy nuclear doors. This
+										contract, for a value of about EUR 300 million, is the
+										largest single contract placed by F4E so far.</p>
+								</list-item>
+								<list-item>
+									<p>Supply of the ITER toroidal field coil radial plates.</p>
+								</list-item>
+								<list-item>
+									<p>Site infrastructure works comprising the detailed design,
+										construction and testing of vacuum systems for industrial
+										and sanitary drainage, gravity rainwater drainage, trenches,
+										ducts, concrete galleries, concrete foundations for
+										equipment, roads, footpaths, external lighting, fencing and
+										site-wide earthing grid.</p>
+								</list-item>
+							</list>
+							<p>A total of EUR 222.2 million was spent on ITER in 2012.</p>
+							<fig>
+								<caption>
+									<title>Implementation 2007–12 (million EUR)</title>
+								</caption>
+								<graphic id="f12" orientation="portrait" position="float" xlink:href="KVAI13001ENC_002-12.jpg"/>
+							</fig>
+						</sec>
+					</sec>
+				</sec>
+			</body>
+		</book-part>
+		<book-part>
+			<!--EXAMPLE Usage of nested tables using the current table model (XHTML) -->
+			<body>
+				<sec>
+					<title>Nested table section</title>
+					<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque 
+					laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto 
+					beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur 
+					aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. 
+					</p>
+					<table-wrap>
+						<caption><title>Cups of coffee consumed by each senator</title></caption>
+						<long-desc>This table charts the number of cups
+						  of coffee consumed by each senator, the type
+						  of coffee (decaf or regular), and whether
+						  taken with sugar.</long-desc>
+						<table>
+						<tbody>
+						   <tr>
+							  <th id="t1">Name</th>
+							  <th id="t2">Cups/day</th>
+							  <th id="t3" abbr="Type">Type of Coffee</th>
+							  <th id="t4">Sugar?</th>
+						   </tr>
+						   <tr>
+							  <td>T. Sexton</td>
+							  <td>10</td>
+							  <td>Espresso</td>
+							  <td>No</td>
+						   </tr>
+						   <tr>
+							  <td>J. Dinnen</td>
+							  <td>3-5</td>
+							  <td>
+								  <p><table-wrap>
+										 <table>
+												<tbody>
+													<tr>
+														<td>Capucino</td><td>Decaf</td>
+													</tr>
+													<tr>
+														<td>Expresso</td><td>Decaf</td>
+													</tr>
+													<tr>
+														<td>Machiato</td><td>Decaf</td>
+													</tr>
+												</tbody>
+											</table>
+								  </table-wrap></p>
+							  </td>
+							  <td>Yes</td>
+						   </tr>
+						</tbody>
+						</table>
+					</table-wrap>
+					</sec>
+			</body>
+		</book-part>	
+	</book-body>
+</book>

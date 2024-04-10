@@ -1,0 +1,2350 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<book book-type="XML test instance" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/BITS-xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML" xsi:schemaLocation="http://opoce BITS-book-01.07-20160204.xsd" xmlns="http://opoce">
+	<book-meta>
+		<book-id book-id-type="doi">10.2785/999711</book-id>
+		<book-id book-id-type="Catalog number">KS-GT-15-001-EN-N</book-id>
+		<book-title-group>
+			<book-title>XML Test Instance</book-title>
+			<subtitle>Model based test instance</subtitle>
+			<trans-title-group xml:lang="ES">
+				<trans-title>XML Prueba Instancia</trans-title>
+				<trans-subtitle>Instancia de prueba basado en modelos</trans-subtitle>
+			</trans-title-group>
+			<trans-title-group xml:lang="DE">
+				<trans-title>XML Test Instanz</trans-title>
+				<trans-subtitle>Modellbasierte Testinstanz</trans-subtitle>
+			</trans-title-group>
+			<trans-title-group xml:lang="FR">
+				<trans-title>XML test instance</trans-title>
+				<trans-subtitle>Instance de test basée sur un modèle</trans-subtitle>
+			</trans-title-group>
+			<trans-title-group xml:lang="IT">
+				<trans-title>Istanza di prova XML</trans-title>
+				<trans-subtitle>Esempio test basato su un modello</trans-subtitle>
+			</trans-title-group>
+			<trans-title-group xml:lang="PL">
+				<trans-title>Instancja test XML</trans-title>
+				<trans-subtitle>Instancja badanie oparte na modelu</trans-subtitle>
+			</trans-title-group>
+			<trans-title-group xml:lang="PT">
+				<trans-title>XML Test Instância</trans-title>
+				<trans-subtitle>Instância de teste com base em um modelo</trans-subtitle>
+			</trans-title-group>
+			<trans-title-group xml:lang="RO">
+				<trans-title>Instanta de test XML</trans-title>
+				<trans-subtitle>Instanta de test bazata pe un model</trans-subtitle>
+			</trans-title-group>
+		</book-title-group>
+		<contrib-group>
+			<contrib>
+				<role>Administrator</role>
+				<email>admin@publications.europa.eu</email>
+			</contrib>
+		</contrib-group>
+		<pub-date>
+			<year>2016</year>
+		</pub-date>
+		<isbn>978-92-896-1165-7</isbn>
+		<edition>Second Edition</edition>
+		<permissions>
+			<copyright-year>2016</copyright-year>
+			<copyright-holder>Publications Office of the European Union</copyright-holder>
+			<license>
+				<license-p>all rights reserved.</license-p>
+			</license>
+		</permissions>
+		<custom-meta-group>
+			<custom-meta>
+				<meta-name>distributed in</meta-name>
+				<meta-value>European Union</meta-value>
+			</custom-meta>
+		</custom-meta-group>
+	</book-meta>
+	<book-body>
+		<book-part>
+			<!--EXAMPLE from DOC "KVAI13001ENC-FinancialReport" p. 37-48-->
+			<body>
+				<!--EXAMPLE FOR A SECTION (level 1) -->
+				<sec>
+					<label>Section III</label>
+					<title>Expenditure</title>
+					<!--EXAMPLE FOR AN INCLUSION: graphic + its title-->
+					<graphic id="f00" orientation="portrait" position="float" xlink:href="KVAI13001ENC_002-0.jpg"/>
+					<fig>
+						<caption>
+							<title>EU budget 2012 — Implemented payments (million EUR)</title>
+						</caption>
+						<graphic id="f01" orientation="portrait" position="float" xlink:href="KVAI13001ENC_002-1.jpg"/>
+					</fig>
+					<!--EXAMPLE FOR A SUB SECTION (nested section - level 2)-->
+					<sec>
+						<title>Allocation of EU expenditure for 2012 by Member State</title>
+						<p>Allocating expenditure to Member States is merely an accounting exercise
+							that gives a very limited view of the benefits that each Member State
+							derives from the Union. The Commission continues to stress this point at
+							every opportunity 
+							<fn>
+								<label>(1)</label>
+								<p>A full statement on this policy and its rationale was made in
+									Chapter 2 of the 1998 Commission report ‘Financing of the
+									European Union’ and in ‘Budget contributions, EU expenditure,
+									budgetary balances and relative prosperity of the Member
+									States’, a paper presented by the Commission to the Economic and
+									Financial Affairs Council of 13 October 1997. The Presidency
+									conclusions of the Berlin European Council of 24 and 25 March
+									1999 endorse this principle: ‘[...] it is recognised that the
+									full benefits of Union membership cannot be measured solely in
+									budgetary terms’ (point 68 of the Presidency conclusions).</p>
+							</fn>. This accounting allocation, among other drawbacks, is
+							non-exhaustive and gives no indication of many of the other benefits
+							gained from EU policies such as those relating to the internal market
+							and economic integration, not to mention political stability and
+							security.</p>
+						<p>In 2012, a total amount of EUR 126 349.3 million (i.e. 91.11 % of the
+							total implemented EU expenditure, including EFTA contributions and
+							earmarked revenue) was allocated to Member States. See notes in annexed
+							tables for further details on the methodology used for the allocation of
+							expenditure.</p>
+						<!--EXAMPLE FOR ONE INCLUSION FOR THE WHOLE PAGE , -->
+						<fig>
+							<caption>
+								<title>Financial data structure</title>
+							</caption>
+							<graphic id="f02" orientation="portrait" position="float" xlink:href="KVAI13001ENC_002-2.jpg"/>
+						</fig>
+						<!--EXAMPLE FOR TEXT + INCLUSION (graphic + its title)-->
+						<p>In total, 94 % of the EU budget is funding policies and projects in
+							Member States and beyond the EU. The chart below provides an overview of
+							how each country benefited from the budget and gives the relative
+							importance compared with each Member State’s GNI for a better
+							understanding of the figures.</p>
+						<fig>
+							<caption>
+								<title>Expenditure by Member State (million EUR)</title>
+							</caption>
+							<graphic id="f03" orientation="portrait" position="float" xlink:href="KVAI13001ENC_002-3.jpg"/>
+						</fig>
+					</sec>
+					<!--FOLLOWING SUB SECTION (nested section - level 2)-->
+					<sec>
+						<title>Allocation of 2012 EU expenditure by heading and by Member
+							State</title>
+						<!--OTHER SUB SECTIONs (nested section - level 3)-->
+						<sec>
+							<title>Methodological note: allocation of expenditure</title>
+							<p>In 2012, total executed EU expenditure amounted to EUR 135 851.6
+								million (excluding EUR 2 831.9 million of expenditure made up of
+								earmarked revenue and including EUR 249.6 million of expenditure
+								made up of EFTA contributions), or EUR 138 683.4 million when
+								including earmarked revenue and that from EFTA, of which EUR 126
+								349.3 million (i.e. 91.1 %) was allocated to Member States and EUR 6
+								239.2 million to non-member countries.</p>
+							<p>Further to this, an amount of EUR 3 263.1 million was allocated to
+								various states, in case of which the country of the final
+								beneficiary cannot be unequivocally determined.</p>
+							<p>In 2012, EU expenditure allocated to non-member countries (i.e. EUR 6
+								239.2 million) concerned mainly part of ‘The EU as a global player’
+								(EUR 5 037.0 million), research (EUR 621.6 million), TEN (EUR 208.8
+								million), fisheries (EUR 97.1 million) and other (EUR 274.6
+								million).</p>
+							<p>The 2012 EU expenditure with undetermined beneficiary (i.e. EUR 3
+								263.1 million) falls into the following categories: part of
+								expenditure under ‘The EU as a global player’ (EUR 1 650.1 million);
+								expenditure which, by its nature, cannot be attributed to specific
+								Member States (EUR 1 613.0 million). This concerns part of
+								administration (EUR 488.2 million), research (EUR 838.1 million),
+								competitiveness and innovation (EUR 111.3 million) and other (EUR
+								55.2 million).</p>
+						</sec>
+						<sec>
+							<title>Methodology</title>
+							<!--OTHER SUB SECTIONs (nested section - level 4) x 3-->
+							<sec>
+								<title>Year of reference</title>
+								<p>Executed and allocated expenditure are actual payments made
+									during a financial year, pursuant to that year’s appropriations
+									or to carry-overs of non-utilised appropriations from the
+									previous year. Expenditure financed from earmarked revenue is
+									presented separately.</p>
+							</sec>
+							<sec>
+								<title>Allocation of expenditure</title>
+								<p>Based on the criteria used for the UK correction, i.e. all
+									possible expenditure must be allocated, except for external
+									actions, pre-accession strategy (if paid to the EU-15),
+									guarantees, reserves and expenditure under earmarked
+									revenue.</p>
+							</sec>
+							<sec>
+								<title>Allocation by Member State</title>
+								<p>Expenditure is allocated to the country in which the principal
+									recipient resides, on the basis of the information available in
+									the Commission’s accounting financial system (ABAC). Some
+									expenditure is not (or is improperly) allocated in ABAC due to
+									conceptual difficulties. In this case, whenever obtained from
+									the corresponding services, additional information is used (e.g.
+									for Galileo, research and administration).</p>
+							</sec>
+						</sec>
+					</sec>
+					<!--SUB SECTION (nested section - level 2)-->
+					<sec>
+						<title>Competitiveness for growth and employment</title>
+						<!--EXAMPLE FOR 4 INCLUSIONS NEXT TO EACH OTHER, with text-->
+						<fig>
+							<graphic id="f04" orientation="portrait" position="float" xlink:href="KVAI13001ENC_002-4.jpg"/>
+							<p>Erasmus celebrated its 25th birthday in 2012. Close to 3 million
+								students from 33 countries and 300 000 university staff have
+								participated in the programme, one of the most successful financed
+								from the EU budget.</p>
+						</fig>
+						<fig>
+							<graphic id="f05" orientation="portrait" position="float" xlink:href="KVAI13001ENC_002-5.jpg"/>
+							<p>Bringing together close to 600 business support organisations from
+								more than 50 countries, the Enterprise Europe Network has helped
+								European small and medium-sized enterprises (SMEs) seize the
+								unparalleled business opportunities of the EU single market.</p>
+						</fig>
+						<fig>
+							<graphic id="f06" orientation="portrait" position="float" xlink:href="KVAI13001ENC_002-6.jpg"/>
+							<p>With EUR 60 million in grants available per year, the Marco Polo
+								programme supports projects enabling freight to switch from road to
+								more environment-friendly means of transport.</p>
+						</fig>
+						<fig>
+							<graphic id="f07" orientation="portrait" position="float" xlink:href="KVAI13001ENC_002-7.jpg"/>
+							<p>Brussels Airport became one of the best served airports by rail in
+								Europe thank to a new rail link connecting it to the major routes of
+								the Belgian railway network and to various European cities.</p>
+						</fig>
+						<p>The expenditure allocated under ‘Competitiveness for growth and
+							employment’ is at the heart of the drive to turn the EU into a smart,
+							sustainable and inclusive economy delivering high levels of employment,
+							productivity and social cohesion. Many of the flagship initiatives set
+							out in the Europe 2020 strategy are covered under this part of the
+							budget, including ‘Innovation union’, ‘Youth on the move’, ‘A
+							resource-efficient Europe’, ‘An agenda for new skills and jobs’ and ‘An
+							industrial policy for the globalisation era’. The main programmes
+							financed under this subheading are the seventh framework programme for
+							research and technological development (FP7), the ‘Lifelong learning’
+							programme (LLP), the ‘Competitiveness and innovation’ programme (CIP),
+							the trans-European networks (TENs), Galileo/EGNOS, Marco Polo II and the
+							‘Progress’ programme. Other actions contributing to the goals of the
+							priority themes of the Europe 2020 strategy concern the following
+							fields: the internal market, statistics, financial services and
+							supervision, the fight against fraud, taxation and the customs
+							union.</p>
+						<!--EXAMPLE FOR 2 INCLUSIONS ON THE SAME PAGE-->
+						<fig>
+							<label>Heading 1a</label>
+							<caption>
+								<title>Implemented payments (million EUR)</title>
+							</caption>
+							<graphic id="f08" orientation="portrait" position="float" xlink:href="KVAI13001ENC_002-8.jpg"/>
+						</fig>
+						<fig>
+							<label>Heading 1a</label>
+							<caption>
+								<title>Expenditure by Member State</title>
+							</caption>
+							<graphic id="f09" orientation="portrait" position="float" xlink:href="KVAI13001ENC_002-9.jpg"/>
+						</fig>
+						<!--SUB SECTION (nested section - level 3)-->
+						<sec>
+							<title>The seventh framework programme for research and technological
+								development (FP7)</title>
+							<p>FP7 covers the TFEU and the European Atomic Energy Community
+								(Euratom) and lasts from 2007 until 2013. The programme’s budget of
+								EUR 55.5 billion represents a substantial increase compared with the
+								sixth framework programme (41 % at 2004 prices), confirming research
+								as a high priority in Europe.</p>
+							<p>This money is (for the most part) being spent on grants to research
+								actors all over Europe and beyond, in order to co-finance research,
+								technological development and demonstration projects. Grants are
+								determined on the basis of calls for proposals and a peer review
+								process, which are highly competitive.</p>
+							<p>In order to complement national research programmes, activities
+								funded from FP7 must have a ‘European added value’. One key aspect
+								of the European added value is the transnationality of many actions:
+								projects are carried out by consortia which include participants
+								from different European (and other) countries; fellowships require
+								mobility over national borders. Indeed, many research challenges are
+								so complex that they can only be addressed at European level. But
+								there is also a new action for ‘individual teams’ with no obligation
+								for transnational cooperation. In this case, the ‘European added
+								value’ lies in raising the competition between scientists in
+								fundamental ‘frontier’ research from the national to the European
+								level.</p>
+							<p>FP7 is both larger and more comprehensive than its predecessors. It
+								is also more flexible, with simplified procedures.</p>
+							<!--SUB SECTION (nested section - level 4)-->
+							<sec>
+								<title>Developments in 2012</title>
+								<p>In 2012, 53 calls for proposals were concluded within FP7. A
+									total of 17 374 eligible proposals were peer reviewed, out of
+									which 3 089 were retained for funding, resulting in a success
+									rate of 17.78 % on a proposal basis.</p>
+								<p>A total of 70 059 applicants took part in all eligible proposals,
+									for a total requested EU contribution of EUR 30.78 billion, of
+									which 14 821 applicants were retained for funding, for a total
+									requested EU contribution of EUR 4.98 billion. The overall
+									success rate was 21.16 % in terms of applicants. It is very
+									close to the overall success rate of FP7 implementation during
+									2007–12 (22 %).</p>
+								<p>Good results have been obtained as regards the mandatory target
+									that 15 % of the cooperation programme budget (with more than 50
+									% of planned resources the largest programme under FP7) should
+									go to SMEs. In 2012, 16.4 % of this budget went to SMEs.</p>
+								<p>A total of EUR 7 853 million was spent on FP7 in 2012.</p>
+								<fig>
+									<caption>
+										<title>Implementation 2007–12 (million EUR)</title>
+									</caption>
+									<graphic id="f10" orientation="portrait" position="float" xlink:href="KVAI13001ENC_002-10.jpg"/>
+								</fig>
+								<!--EXAMPLE OF A TEXT BOX + INCLUSION-->
+								<boxed-text>
+									<sec>
+										<label>Example:</label>
+										<title>Novel immunotherapies for type 1 diabetes — FP7 —
+											Health (project reference: 241447)</title>
+										<fig>
+											<graphic id="f11" orientation="portrait" position="float" xlink:href="KVAI13001ENC_002-11.jpg"/>
+										</fig>
+										<p>As the world’s population grows, so does the increase in
+											the number of new cases of type 1 diabetes mellitus
+											(T1DM) among the very young. Researchers at the EU
+											funded project Naimit are using a genetically modified
+											form of the bacterium Lactococcus lactis to help alter
+											the way the disease contributes to T1DM in children.
+											Success in this research could improve quality of life
+											for millions of people worldwide suffering from this
+											autoimmune disease.</p>
+										<p>The objectives of the projects are to pioneer the concept
+											of tailored interventions with minimal immune system
+											interference in new onset T1DM, leading to beta-cell
+											protection and restoration, based on a solid
+											understanding of the disease pathogenesis. This will
+											enable experimental findings to be adopted for future
+											clinical application.</p>
+										<p>EU contribution: EUR 10 920 800</p>
+									</sec>
+								</boxed-text>
+							</sec>
+						</sec>
+						<!--SUB SECTION (nested section - level 3)-->
+						<sec>
+							<title>ITER (International Thermonuclear Experimental Reactor)</title>
+							<p>ITER plays a major role within the Euratom framework programme. It is
+								being built in southern France and will be jointly operated by seven
+								partners — Euratom, China, India, Japan, Korea, Russia and the
+								United States. The ITER prototype power plant will demonstrate the
+								production of large-scale electrical power by means of fusion
+								technology.</p>
+							<p>In 2012, the European joint undertaking ‘Fusion for energy’ (F4E)
+								achieved significant progress, particularly in the manufacturing of
+								sub-components for the fabrication of the toroidal field coils,
+								progress in the manufacturing of mock-ups and in the qualification
+								of the new precision forming and deep welding of 60 mm-thick steel
+								shell for the fabrication of the vacuum vessel sectors. The works on
+								the Tokamak building foundation, the pit wall and the installation
+								of the anti-seismic foundation pads have been concluded and made
+								ready for the construction in 2013 of the upper reinforced concrete
+								slab.</p>
+							<p>During the year 2012, 54 operational contracts were awarded for a
+								total value of EUR 736 million, including, among others, large
+								contracts with values of more than EUR 5 million.</p>
+							<!--EXAMPLE OF A LIST-->
+							<list list-type="triangle">
+								<list-item>
+									<p>Civil engineering and finishing works for the Tokamak
+										complex, assembly hall and surrounding buildings, including
+										the designing and building of heavy nuclear doors. This
+										contract, for a value of about EUR 300 million, is the
+										largest single contract placed by F4E so far.</p>
+								</list-item>
+								<list-item>
+									<p>Supply of the ITER toroidal field coil radial plates.</p>
+								</list-item>
+								<list-item>
+									<p>Site infrastructure works comprising the detailed design,
+										construction and testing of vacuum systems for industrial
+										and sanitary drainage, gravity rainwater drainage, trenches,
+										ducts, concrete galleries, concrete foundations for
+										equipment, roads, footpaths, external lighting, fencing and
+										site-wide earthing grid.</p>
+								</list-item>
+							</list>
+							<p>A total of EUR 222.2 million was spent on ITER in 2012.</p>
+							<fig>
+								<caption>
+									<title>Implementation 2007–12 (million EUR)</title>
+								</caption>
+								<graphic id="f12" orientation="portrait" position="float" xlink:href="KVAI13001ENC_002-12.jpg"/>
+							</fig>
+						</sec>
+					</sec>
+				</sec>
+			</body>
+		</book-part>
+		<book-part>
+			<!--EXAMPLE from DOC "NA0313541ENC-LetsExploreEurope" p. 32-40-->
+			<body>
+				<!--EXAMPLE SECTION (section - level 1)-->
+				<sec>
+					<title>The story of the European Union</title>
+					<p>The Second World War ended in 1945. It had been a time of terrible
+						destruction and killing, and it had started in Europe. How could the leaders
+						of European countries stop such dreadful things from ever happening again?
+						They needed a really good plan that had never been tried before.</p>
+					<sec>
+						<fig>
+							<caption>
+								<p>Robert Schuman.</p>
+							</caption>
+							<graphic id="f1" orientation="portrait" position="float" xlink:href="NA0313541ENC_002-1.jpg"/>
+						</fig>
+						<fig>
+							<caption>
+								<p>Jean Monnet.</p>
+							</caption>
+							<graphic id="f2" orientation="portrait" position="float" xlink:href="NA0313541ENC_002-2.jpg"/>
+						</fig>
+						<!--EXAMPLE FOR A SUB SECTION (nested section - level 2)-->
+						<sec>
+							<title>A brand new idea</title>
+							<p>A Frenchman called Jean Monnet thought hard about this. He realised
+								that there were two things a country needed before it could make
+								war: iron for producing steel (to make tanks, guns, bombs and so on)
+								and coal to provide the energy for factories and railways. Europe
+								had plenty of coal and steel: that’s why European countries had
+								easily been able to make weapons and go to war.</p>
+							<p>So Jean Monnet came up with a very daring new idea. His idea was that
+								the governments of France and Germany – and perhaps of other
+								European countries too – should no longer run their own coal and
+								steel industries. Instead, these industries should be organised by
+								people from all the countries involved, and they would sit around a
+								table and discuss and decide things together. That way, war between
+								them would be impossible!</p>
+							<p>Jean Monnet felt that his plan really would work if only European
+								leaders were willing to try it. He spoke about it to his friend
+								Robert Schuman, who was a minister in the French government. Robert
+								Schuman thought it was a brilliant idea and he announced it in an
+								important speech on 9 May 1950.</p>
+							<p>The speech convinced not only the French and German leaders but also
+								the leaders of Belgium, Italy, Luxembourg and the Netherlands. They
+								all decided to put their coal and steel industries together and to
+								form a club they called the European Coal and Steel Community
+								(ECSC). It would work for peaceful purposes and help rebuild Europe
+								from the ruins of war. The ECSC was set up in 1951.</p>
+						</sec>
+					</sec>
+					<!--EXAMPLE FOR A SUB SECTION (nested section - level 2) -->
+					<sec>
+						<title>From EEC to European Union</title>
+						<p>The common market was soon making life easier for people in the EEC.</p>
+						<p>They had more money to spend, more food to eat and more varied things in
+							their shops. Other neighbouring countries saw this and, in the 1960s,
+							some of them began asking whether they too could join the club.</p>
+						<p>After years of discussions, the United Kingdom, Denmark and Ireland
+							joined in 1973. It was the turn of Greece in 1981, followed by Portugal
+							and Spain in 1986, and Austria, Finland and Sweden in 1995.</p>
+						<!--EXAMPLE FOR INCLUSION NEXT TO THE TEXT (at right), with text (caption)-->
+						<fig>
+							<caption>
+								<p>Joining the club. In this picture, Greece signs up for
+									membership.</p>
+							</caption>
+							<graphic id="f5" orientation="portrait" position="float" xlink:href="NA0313541ENC_002-5.jpg"/>
+						</fig>
+						<p>So now the club had 15 members.</p>
+						<p>Over these years, the club was changing. By the end of 1992 it had
+							finished building the ‘single market’ (as it became known), and it was
+							doing a lot more besides. For example, EEC countries were working
+							together to protect the environment and to build better roads and
+							railways right across Europe. Richer countries helped poorer ones with
+							their road building and other important projects.</p>
+						<!--EXAMPLE FOR INCLUSION NEXT TO THE TEXT (at left), with text (caption)-->
+						<fig>
+							<caption>
+								<p>Protecting the environment includes reducing air pollution – for
+									example, using wind energy to make electricity.</p>
+							</caption>
+							<graphic id="f6" orientation="portrait" position="anchor" xlink:href="NA0313541ENC_002-6.jpg"/>
+						</fig>
+						<p>To make life easier for travellers, most EEC countries had got rid of
+							passport checks at the borders between them. A person living in one
+							member country was free to go and live and find work in any other member
+							country. The governments were discussing other new ideas too – for
+							example, how policemen from different countries could help one another
+							catch criminals, drug smugglers and terrorists.</p>
+						<fig>
+							<caption>
+								<p>A policeman and his dog check luggage for drugs.</p>
+							</caption>
+							<graphic id="f7" orientation="portrait" position="anchor" xlink:href="NA0313541ENC_002-7.jpg"/>
+						</fig>
+						<p>In short, the club was so different and so much more united that, in
+							1992, it decided to change its name to the ‘European Union’ (EU).</p>
+					</sec>
+				</sec>
+				<!--EXAMPLE SECTION (section - level 1)-->
+				<sec>
+					<title>What the EU does</title>
+					<p content-type="lead-paragraph">The EU tries to make life better in all sorts
+						of ways. Here are some of them.</p>
+					<!--EXAMPLE SUB SECTION (nested - level 2)-->
+					<sec>
+						<title>Climate change and the environment</title>
+						<fig position="float">
+							<caption>
+								<p>Pollution crosses borders, so European countries work together to
+									protect the environment.</p>
+							</caption>
+							<graphic id="f9" orientation="portrait" xlink:href="NA0313541ENC_002-9.jpg"/>
+						</fig>
+						<p>The environment belongs to everyone, so countries have to work together
+							to protect it. The EU has rules about stopping pollution and about
+							protecting (for example) wild birds. These rules apply in all EU
+							countries and their governments have to make sure they are obeyed.</p>
+						<p>Climate change – also known as global warming – is another problem that
+							countries cannot tackle alone. EU countries have therefore agreed to
+							work together to lower the amount of emissions they produce that harm
+							the atmosphere and cause global warming. The EU is also trying to
+							influence other countries to do the same.</p>
+					</sec>
+					<!--EXAMPLE SUB SECTION (nested - level 2)-->
+					<sec>
+						<title>The euro</title>
+						<fig position="float">
+							<caption>
+								<p>The euro is used in many EU countries.</p>
+							</caption>
+							<graphic id="f101" orientation="portrait" xlink:href="NA0313541ENC_002-10.jpg"/>
+						</fig>
+						<p>In years gone by, each country in Europe had its own kind of money, or
+							‘currency’. Now there is one single currency, the euro, which all EU
+							countries can share if they wish. Having one currency makes it easier to
+							do business and to travel and shop all over the EU without having to
+							change from one currency to another. Today, more than two thirds of the
+							EU’s citizens are using the euro instead of the old currencies.</p>
+						<p>If you compare euro coins you will see that on one side there is a design
+							representing the country it was made in. The other side is the same for
+							all the countries.</p>
+					</sec>
+					<!--EXAMPLE SUB SECTION (nested - level 2)-->
+					<sec>
+						<title>Freedom!</title>
+						<fig position="float">
+							<caption>
+								<p>Students from different countries study together, with help from
+									the EU.</p>
+							</caption>
+							<graphic id="f102" orientation="portrait" xlink:href="NA0313541ENC_002-11.jpg"/>
+						</fig>
+						<p>People in the EU are free to live, work or study in whichever EU country
+							they choose, and the EU is doing all it can to make it simple to move
+							home from one country to another. When you cross the borders between
+							most EU countries, you no longer need a passport. The EU encourages
+							students and young people to spend some time studying or training in
+							another European country.</p>
+					</sec>
+					<!--EXAMPLE SUB SECTION (nested - level 2)-->
+					<sec>
+						<title>Jobs</title>
+						<fig position="float">
+							<caption>
+								<p>Training people to do new jobs is very important.</p>
+							</caption>
+							<graphic id="f103" orientation="portrait" xlink:href="NA0313541ENC_002-12.jpg"/>
+						</fig>
+						<p>It’s important for people to have jobs that they enjoy and are good at.
+							Some of the money they earn goes to pay for hospitals and schools, and
+							to look after old people. That’s why the EU is doing all it can to
+							create new and better jobs for everyone who can work. It helps people to
+							set up new businesses, and provides money to train people to do new
+							kinds of work.</p>
+					</sec>
+					<!--EXAMPLE SUB SECTION (nested - level 2)-->
+					<sec>
+						<title>Helping regions in difficulty</title>
+						<fig position="float">
+							<caption>
+								<p>The EU helps pay for new roads.</p>
+							</caption>
+							<graphic id="f104" orientation="portrait" xlink:href="NA0313541ENC_002-13.jpg"/>
+						</fig>
+						<p>Life is not easy for everyone everywhere in Europe. In some places there
+							are not enough jobs for people, because mines or factories have closed
+							down. In some areas, farming is hard because of the climate, or trade is
+							difficult because there are not enough roads and railways.</p>
+						<p>The EU tackles these problems by collecting money from all its member
+							countries and using it to help regions that are in difficulty. For
+							example, it helps pay for new roads and rail links, and it helps
+							businesses to provide new jobs for people.</p>
+					</sec>
+					<!--EXAMPLE SUB SECTION (nested - level 2)-->
+					<sec>
+						<title>Helping poor countries</title>
+						<fig position="float">
+							<caption>
+								<p>The EU delivers food to people in need.</p>
+							</caption>
+							<graphic id="f105" orientation="portrait" xlink:href="NA0313541ENC_002-14.jpg"/>
+						</fig>
+						<p>In many countries around the world, people are dying or living difficult
+							lives because of war, disease and natural disasters such as droughts or
+							floods. Often these countries do not have enough money to build the
+							schools and hospitals, roads and houses that their people need.</p>
+						<p>The EU gives money to these countries, and sends teachers, doctors,
+							engineers and other experts to work there. It also buys many things that
+							those countries produce without charging customs duties. That way, the
+							poor countries can earn more money.</p>
+					</sec>
+				</sec>
+				<!--EXAMPLE SECTION (section - level 1)-->
+				<sec>
+					<title>Peace</title>
+					<fig position="float">
+						<caption>
+							<p>The European flag.</p>
+						</caption>
+						<graphic id="f15" orientation="portrait" xlink:href="NA0313541ENC_002-15.png"/>
+					</fig>
+					<p>The European Union has brought many European countries together in
+						friendship. Of course, they don’t always agree on everything but, instead of
+						fighting, their leaders sit round a table to sort out their
+						disagreements.</p>
+					<p>
+						<bold>So the dream of Jean Monnet and Robert Schuman has come true.</bold>
+					</p>
+					<p>The EU has brought peace among its members. It is also working for lasting
+						peace among its neighbours and in the wider world. For example, EU soldiers
+						and police officers are helping keep the peace in the former Yugoslavia,
+						where there was bitter fighting not many years ago.</p>
+					<p>These are just some of the things the EU does: there are many more. In fact,
+						being in the European Union makes a difference to just about every aspect of
+						our lives. What things should the EU be doing, or not doing? That’s for the
+						people in the EU to decide. How can we have our say? Find out in the next
+						chapter.</p>
+					<p>Europe has its own flag and its own anthem – Ode to Joy from Beethoven’s
+						ninth symphony. The original words are in German, but when used as the
+						European anthem it has no words – only the tune. You can hear it on the
+						Internet:</p>
+					<p>
+						<ext-link ext-link-type="uri" xlink:href="http://europa.eu/about-eu/basic-information/symbols/anthem/index_en.htm">europa.eu/about-eu/basic-information/symbols/anthem/index_en.htm</ext-link>
+					</p>
+				</sec>
+				<!--EXAMPLE SECTION (section - level 1)-->
+				<sec>
+					<title>The EU and its neighbours</title>
+					<!--EXAMPLE INCLUSION (WITH TEXT INSIDE)-->
+					<p>Match the capital cities with their countries?</p>
+					<fig>
+						<graphic id="f16" orientation="portrait" position="background" xlink:href="NA0313541ENC_002-16.jpg"/>
+						<p content-type="legend-title">Key:</p>
+						<p>The <bold>coloured countries</bold> are members of the European Union
+							(EU).</p>
+						<p>The <bold>striped countries</bold> are planning to join the EU.</p>
+						<p>The <bold>other countries</bold>, including those shown by a small white
+							circle, are neighbours of the EU.</p>
+						<p>The <bold>dots</bold> show where the capital cities are.</p>
+						<p>Vatican City is in Rome.</p>
+						<p>Some islands and other pieces of land belonging to France, Portugal and
+							Spain are part of the EU. But they are a long way from mainland Europe,
+							so we have put them in the box (top right).</p>
+						<p>(*) UNSCR 1244</p>
+					</fig>
+				</sec>
+			</body>
+		</book-part>
+		<book-part>
+			<!--EXAMPLE from DOC "NA3113822EN1-EuropeWhatIsAllAbout" p. 4-9-->
+			<body>
+				<sec>
+					<!--EXAMPLE of label-->
+					<label>1</label>
+					<title>Europe in everyday life</title>
+					<fig>
+						<graphic id="f120" orientation="portrait" position="float" xlink:href="NA3113822EN1_002-1.jpg"/>
+						<p>‘Hi! We are Alice, Jello, Patricia, Motian and Janette from the Robert Jungk High School in Berlin, a comprehensive school with German–Polish classes on Europe. You will see us again in this magazine as we provide some important tips, interesting exercises, little quizzes and ideas for discussion. You will see, learning can also be fun!’</p>
+					</fig>
+					<sec sec-type="bordered">
+						<p>‘Europe is somewhere else’. This statement is of course nonsense because, as EU citizens, Europe 
+							is our home. So we are right in the middle of it. Nevertheless, many people feel that Europe is a long way away, and this applies especially to the European Union, the grouping of European nations that want to build a future together. The aim of this chapter is to become a bit more familiar with the European Union. You will soon see: Europe — that is us.</p>
+					</sec>
+					<sec sec-type="quiz">
+						<fig>
+							<graphic id="f220" orientation="portrait" position="float" xlink:href="NA3113822EN1_002-2.jpg"/>
+						</fig>
+						<!--EXAMPLE of label-->
+						<sec>
+							<!--EXAMPLE of exercise question/answer to select-->
+							<label>Exercise</label>
+							<title>How far away is ‘Brussels’?</title>
+							<question-wrap content-type="exercise">
+								<question>
+									<p>We hear about the European Union every day on the news or read about it in the newspapers. However, many people are not interested in the EU. Why do you think this is?</p>
+								</question>
+								<answer-set answer-type="multi-select">
+									<answer>
+										<p>The EU is not important to our lives.</p>
+									</answer>
+									<answer>
+										<p>The EU is much too complicated. The media don’t report enough about the EU.</p>
+									</answer>
+									<answer>
+										<p>All the important issues are decided in the Member States rather than Brussels or Strasbourg, so it is enough to get involved with national politics.</p>
+									</answer>
+									<answer>
+										<p>Politics is generally boring.</p>
+									</answer>
+								</answer-set>
+							</question-wrap>
+						</sec>
+						<sec>
+							<!--EXAMPLE of exercise question/answer to select-->
+							<label>Exercise</label>
+							<title>What about you?</title>
+							<question-wrap>
+								<question>
+									<p>My level of interest in the European Union is:</p>
+								</question>
+								<answer-set answer-type="multi-select">
+									<answer>
+										<sec>
+											<p>very high,</p>
+										</sec>
+										<sec>
+											<p>fairly high,</p>
+										</sec>
+										<sec>
+											<p>moderate,</p>
+										</sec>
+										<sec>
+											<p>low,</p>
+										</sec>
+										<sec>
+											<p>very low,</p>
+										</sec>
+										<sec>
+											<p>non-existent,</p>
+										</sec>
+									</answer>
+									<explanation>
+										<p>because</p>
+									</explanation>
+									<answer answer-type="fill-in-the-blank">
+										<p>______________________</p>
+									</answer>
+								</answer-set>
+							</question-wrap>
+						</sec>
+						<sec>
+							<!--EXAMPLE of exercise with multi: question/answer to select-->
+							<label>Europe — a short quiz</label>
+							<question-wrap content-type="quiz">
+								<question>
+									<p>How many countries belong to the European Union?</p>
+								</question>
+								<answer-set answer-type="multiple-choice">
+									<answer correct="no">
+										<p>12</p>
+									</answer>
+									<answer correct="no">
+										<p>15</p>
+									</answer>
+									<answer correct="no">
+										<p>25</p>
+									</answer>
+									<answer correct="yes">
+										<p>28</p>
+									</answer>
+									<answer correct="no">
+										<p>30</p>
+									</answer>
+								</answer-set>
+							</question-wrap>
+							<question-wrap content-type="quiz">
+								<question>
+									<p>How are Members of the European Parliament elected?</p>
+								</question>
+								<answer-set answer-type="multiple-choice">
+									<answer correct="no">
+										<p>They aren’t. They are appointed by each country’s Head of State at the suggestion of the Head of Government.</p>
+									</answer>
+									<answer correct="no">
+										<p>In the parliamentary elections in each Member State, because Members of the European Parliament are also members of their national parliaments.</p>
+									</answer>
+									<answer correct="no">
+										<p>They are delegated to the European Parliament by each of the national parliaments.</p>
+									</answer>
+									<answer correct="yes">
+										<p>In general elections with secret ballots, just like the Members of Parliament in their own countries.</p>
+									</answer>
+								</answer-set>
+							</question-wrap>
+							<question-wrap content-type="quiz">
+								<question>
+									<p>How many of the EU Member States use the euro as their common currency?</p>
+								</question>
+								<answer-set answer-type="multiple-choice">
+									<answer correct="no">
+										<p>All EU Member States.</p>
+									</answer>
+									<answer correct="no">
+										<p>The six founding countries.</p>
+									</answer>
+									<answer correct="no">
+										<p>Thirteen countries.</p>
+									</answer>
+									<answer correct="no">
+										<p>Seventeen countries.</p>
+									</answer>
+								</answer-set>
+							</question-wrap>
+							<question-wrap content-type="quiz">
+								<question>
+									<p>In 2013 the EU is spending about €133 billion. What percentage of the EU countries’ economic output — their gross domestic product (GDP) — do you think this represents?</p>
+								</question>
+								<answer-set answer-type="multiple-choice">
+									<answer correct="no">
+										<p>80.9 %.</p>
+									</answer>
+									<answer correct="no">
+										<p>50.2 %.</p>
+									</answer>
+									<answer correct="no">
+										<p>15.3 %.</p>
+									</answer>
+									<answer correct="yes">
+										<p>0.99 %.</p>
+									</answer>
+								</answer-set>
+							</question-wrap>
+							<question-wrap content-type="quiz">
+								<question>
+									<p>The Court of Justice of the European Union upholds European law. Where is the Court based?</p>
+								</question>
+								<answer-set answer-type="multiple-choice">
+									<answer correct="no">
+										<p>In Lisbon.</p>
+									</answer>
+									<answer correct="no">
+										<p>In Brussels.</p>
+									</answer>
+									<answer correct="no">
+										<p>In Strasbourg.</p>
+									</answer>
+									<answer correct="yes">
+										<p>In Luxembourg.</p>
+									</answer>
+								</answer-set>
+							</question-wrap>
+						</sec>
+						<sec>
+							<label>Exercise</label>
+							<title>How is the EU relevant to us?<break/>Ten examples</title>
+							<fig>
+								<graphic id="f3.1" orientation="portrait" position="float" xlink:href="NA3113822EN1_002-3.jpg"/>
+							</fig>
+							<fig>
+								<graphic id="f4.1" orientation="portrait" position="float" xlink:href="NA3113822EN1_002-4.jpg"/>
+							</fig>
+							<table-wrap>
+								<!--EXAMPLE of question/answer in the table to select -->
+								<table>
+									<thead>
+										<tr>
+											<th rowspan="2">Our lives</th>
+											<th rowspan="2">Relevance of the EU</th>
+											<th colspan="3">
+												<question>
+													<p>I think this is …</p>
+												</question>
+											</th>
+										</tr>
+										<tr>
+											<th>very important</th>
+											<th>important</th>
+											<th>not important</th>
+										</tr>
+									</thead>
+									<tbody>
+										<tr>
+											<td>
+												<p>Trade within Europe is expanding all the time. And it’s not only the big corporations that are benefiting but also small and medium-sized enterprises. This all helps to safeguard <bold>jobs</bold>.</p>
+											</td>
+											<td>
+												<p>The creation of the European single market of 500 million people increased trade between the EU countries from €800 billion in 1992 to €2 540 billion in 2010.</p>
+											</td>
+											<td>
+												<answer answer-type="true-false">
+													<p>O</p>
+												</answer>
+											</td>
+											<td>
+												<answer answer-type="true-false">
+													<p>O</p>
+												</answer>
+											</td>
+											<td>
+												<answer answer-type="true-false">
+													<p>O</p>
+												</answer>
+											</td>
+										</tr>
+										<tr>
+											<td>
+												<p>
+													<bold>Making phone calls</bold> has become much cheaper in recent years.</p>
+											</td>
+											<td>
+												<p>The EU has liberalised the telecommunications market which means that national monopolies have been broken up and competition permitted. The EU intervenes directly where there is insufficient competition. For example, mobile calls abroad have become cheaper as a result of action by the European Parliament and the European Commission</p>
+											</td>
+											<td>
+												<answer answer-type="true-false">
+													<p>O</p>
+												</answer>
+											</td>
+											<td>
+												<answer answer-type="true-false">
+													<p>O</p>
+												</answer>
+											</td>
+											<td>
+												<answer answer-type="true-false">
+													<p>O</p>
+												</answer>
+											</td>
+										</tr>
+										<tr>
+											<td>
+												<p>
+													<bold>Flying</bold> has become much more reasonably priced in recent years, so now more young people and families with children can afford to travel by air.</p>
+											</td>
+											<td>
+												<p>Here also the EU has abolished national monopolies and has permitted competition. Now you can choose to fly from Hungary to France with a British airline. Passenger rights have also been strengthened. If you are left stranded at the airport because your plane was overbooked or you miss an appointment because it was seriously delayed, you can now get compensation for this.</p>
+											</td>
+											<td>
+												<answer answer-type="true-false">
+													<p>O</p>
+												</answer>
+											</td>
+											<td>
+												<answer answer-type="true-false">
+													<p>O</p>
+												</answer>
+											</td>
+											<td>
+												<answer answer-type="true-false">
+													<p>O</p>
+												</answer>
+											</td>
+										</tr>
+										<tr>
+											<td>
+												<p>So-called ‘<bold>doorstep sales</bold>’, where people are talked into buying an encyclopaedia or a vacuum cleaner, for example, can be cancelled, so that the person who has been taken off guard does not lose anything. The same is true if you sign up to a magazine subscription or any sort of contract in the street</p>
+											</td>
+											<td>
+												<p>The EU has blocked such deals across Europe. Now, everyone gets the time to change their mind — even if they have already signed up.</p>
+											</td>
+											<td>
+												<answer answer-type="true-false">
+													<p>O</p>
+												</answer>
+											</td>
+											<td>
+												<answer answer-type="true-false">
+													<p>O</p>
+												</answer>
+											</td>
+											<td>
+												<answer answer-type="true-false">
+													<p>O</p>
+												</answer>
+											</td>
+										</tr>
+										<tr>
+											<td>
+												<p>The <bold>warranty period</bold> for consumer products such as electronic goods is now 2 years. This means, for example, that if a mobile phone goes wrong after 1 year, it is repaired or replaced without charge.</p>
+											</td>
+											<td>
+												<p>European regulations have created uniform time limits. The guarantee applies right across Europe. It also doesn’t matter which EU country the customer bought the product in.</p>
+											</td>
+											<td>
+												<answer answer-type="true-false">
+													<p>O</p>
+												</answer>
+											</td>
+											<td>
+												<answer answer-type="true-false">
+													<p>O</p>
+												</answer>
+											</td>
+											<td>
+												<answer answer-type="true-false">
+													<p>O</p>
+												</answer>
+											</td>
+										</tr>
+										<tr>
+											<td>
+												<p>
+													<bold>Environmental pollution</bold> knows no boundaries. We all need to breathe, so having clean air is obviously very important. And it has been improved in recent years.</p>
+											</td>
+											<td>
+												<p>The EU has introduced compulsory, Europewide quality standards for the air we breathe, and Member States must make sure that these standards are upheld.</p>
+											</td>
+											<td>
+												<answer answer-type="true-false">
+													<p>O</p>
+												</answer>
+											</td>
+											<td>
+												<answer answer-type="true-false">
+													<p>O</p>
+												</answer>
+											</td>
+											<td>
+												<answer answer-type="true-false">
+													<p>O</p>
+												</answer>
+											</td>
+										</tr>
+										<tr>
+											<td>
+												<p>
+													<bold>Water</bold> is for washing. But not only that: most importantly, we also drink it. Here its <bold>quality</bold> is crucial. No-one living in the EU need have any concern about turning on their taps and drinking the water that comes out of them.</p>
+											</td>
+											<td>
+												<p>For 10 years there have been EU quality standards for drinking water which all Member States must comply with.</p>
+											</td>
+											<td>
+												<answer answer-type="true-false">
+													<p>O</p>
+												</answer>
+											</td>
+											<td>
+												<answer answer-type="true-false">
+													<p>O</p>
+												</answer>
+											</td>
+											<td>
+												<answer answer-type="true-false">
+													<p>O</p>
+												</answer>
+											</td>
+										</tr>
+										<tr>
+											<td>
+												<p>
+													<bold>Travelling in Europe</bold> is very easy nowadays. There are no longer any border controls between most European countries.</p>
+											</td>
+											<td>
+												<p>The ‘Schengen Agreement’ has made border controls between its member countries unnecessary. This means, for example, that you can travel from the North Cape of Norway to Sicily without a single border control. Only the United Kingdom and Ireland are exempt. Bulgaria, Croatia, Cyprus and Romania are also not yet members of the Schengen area.</p>
+											</td>
+											<td>
+												<answer answer-type="true-false">
+													<p>O</p>
+												</answer>
+											</td>
+											<td>
+												<answer answer-type="true-false">
+													<p>O</p>
+												</answer>
+											</td>
+											<td>
+												<answer answer-type="true-false">
+													<p>O</p>
+												</answer>
+											</td>
+										</tr>
+										<tr>
+											<td>
+												<p>EU citizens are just as able to work in another European country as they are in their own country. Anyone can decide <bold>where they prefer to live or where to look for work.</bold>
+												</p>
+											</td>
+											<td>
+												<p>The EU has created freedom of movement within its internal market. Someone from Vienna can work in Brussels or Rome, London or Warsaw, just as easily as in Linz or Innsbruck.</p>
+											</td>
+											<td>
+												<answer answer-type="true-false">
+													<p>O</p>
+												</answer>
+											</td>
+											<td>
+												<answer answer-type="true-false">
+													<p>O</p>
+												</answer>
+											</td>
+											<td>
+												<answer answer-type="true-false">
+													<p>O</p>
+												</answer>
+											</td>
+										</tr>
+										<tr>
+											<td>
+												<p>Unfortunately, you can fall <bold>ill or have an accident</bold> even when you are on holiday. So t’s good to know that you can get medical treatment with no fuss and free of charge in any European country.</p>
+											</td>
+											<td>
+												<p>EU countries make their health insurance cover available to each other. You simply need to present your ‘European Health Insurance Card’ or an equivalent form, and you can concentrate on getting better instead of grappling with bureaucracy in a language you may not even speak.</p>
+											</td>
+											<td>
+												<answer answer-type="true-false">
+													<p>O</p>
+												</answer>
+											</td>
+											<td>
+												<answer answer-type="true-false">
+													<p>O</p>
+												</answer>
+											</td>
+											<td>
+												<answer answer-type="true-false">
+													<p>O</p>
+												</answer>
+											</td>
+										</tr>
+									</tbody>
+								</table>
+							</table-wrap>
+						</sec>
+						<sec>
+							<label>Exercise</label>
+							<title>What answers did your classmates come up with?</title>
+							<p>Mark each other’s papers and discuss the results.</p>
+						</sec>
+						<sec>
+							<label>Exercise</label>
+							<title>The EU at home</title>
+							<p>Think of your daily life and your family. Where does the EU come into it?</p>
+							<p>Think of some examples. Think about food and money, school and study, travel, shopping and
+								working.</p>
+						</sec>
+					</sec>
+					<sec>
+						<title>Education and studies in other EU countries</title>
+						<fig>
+							<graphic id="f5.1" orientation="portrait" position="float" xlink:href="NA3113822EN1_002-5.jpg"/>
+							<p>Alice: ‘Altogether around 2.5 million students and 300 000 trainees spent one or two terms in another EU country between 1987 and 2012 as part of the Erasmus programme. In 28 EU Member States and five other countries there are over 3 000 universities and colleges that have participated in this academic cooperation.’</p>
+						</fig>
+						<p>Freedom of movement benefits not only workers but also tourists, pensioners, students and trainees.</p>
+						<p>For students, this mobility is promoted by the EU’s ‘Erasmus’ programme. This provides students with the financial and organisational support for a spell abroad at a European partner university. There is a European points system to ensure that grades earned abroad are credited to their studies at home, so that spending a term abroad is not ‘lost’.</p>
+						<p>For vocational trainees too, there is a special EU programme called ‘Leonardo da Vinci’ which provides money and organisational support for a work placement away from home. Some 75 000 young EU citizens take advantage of this every year to complete part of their training in another country. The programme works in partnership with companies and institutions which subsequently advertise projects for which young people can apply (trainees and young employees, but also young unemployed people).</p>
+						<p>At the start, it might take quite an effort to get involved in a project like this in another country. But the experience that young people gain from it fully makes up for it.</p>
+						<sec>
+							<label>Exercise</label>
+							<title>Can you imagine spending a term or a year abroad, or even doing your whole course in another country?</title>
+							<p>Make a list of ‘for and against’ arguments.</p>
+							<p>Which side wins?</p>
+							<!--EXAMPLE of exercise question/answer to write-->
+							<question-wrap content-type="exercise">
+								<question>
+									<p>Arguments for a period of study abroad</p>
+								</question>
+								<answer-set answer-type="fill-in-the-blank">
+									<answer>
+										<label>1.</label>
+										<p>________________</p>
+									</answer>
+									<answer>
+										<label>2.</label>
+										<p>________________</p>
+									</answer>
+									<answer>
+										<label>3.</label>
+										<p>________________</p>
+									</answer>
+									<answer>
+										<label>4.</label>
+										<p>________________</p>
+									</answer>
+								</answer-set>
+							</question-wrap>
+							<question-wrap content-type="exercise">
+								<question>
+									<p>Arguments against a period of study abroad</p>
+								</question>
+								<answer-set answer-type="fill-in-the-blank">
+									<answer>
+										<label>1.</label>
+										<p>________________</p>
+									</answer>
+									<answer>
+										<label>2.</label>
+										<p>________________</p>
+									</answer>
+									<answer>
+										<label>3.</label>
+										<p>________________</p>
+									</answer>
+									<answer>
+										<label>4.</label>
+										<p>________________</p>
+									</answer>
+								</answer-set>
+							</question-wrap>
+							<p>Now compare your results and discuss them.</p>
+						</sec>
+					</sec>
+					<sec>
+						<label>Exercise</label>
+						<title>European symbols</title>
+						<fig>
+							<graphic id="f6.1" orientation="portrait" position="float" xlink:href="NA3113822EN1_002-6.jpg"/>
+						</fig>
+						<p>Do you recognise the symbols and objects shown? Where can you find them?</p>
+						<p>Think about what they have to do with Europe and our lives.</p>
+					</sec>
+					<sec>
+						<title>Europe in everyday life</title>
+						<p>We started by asking why Europe seems so remote to many people. Different people may have different reasons.</p>
+						<p>But when we look more closely, we find that Europe, or rather the European Union, is actually all around us. It affects our lives in many areas.</p>
+						<p>Starting with money: the euro is a common currency; not all countries have adopted it, but more than half of them have. When we go on holiday to Austria, France or Spain, for example, we can pay for things in this common currency. And even in countries where the euro is not used, it is nevertheless accepted as a strong global currency. With the euro we are welcome all over the world.</p>
+						<p>Many people are so used to being able to travel anywhere in Europe that they hardly notice it. But not so long ago things were different. Then there were passport controls and queues at the border and the customs officers wanted to know exactly what purchases you were bringing back with you.</p>
+						<p>Flying has become much cheaper. That is also down to the EU, which has abolished national monopolies. This means that there is no longer a national airline for each country, having a monopoly on certain routes and charging high prices. These days, every airline within the EU can fly wherever it wants. So, for example, you can now book a flight from Denmark to Spain with an Irish airline.</p>
+						<p>The fact that flying in the EU is safe is also due to common safety standards laid down by the EU for all Member States, which do not allow companies operating in conditions below essential safety levels to enter into European airspace.</p>
+						<p>Many of these regulations have come about thanks to the ‘internal market’. If you want to have a single market in which people can buy and produce things how and where they want, there have to be common rules.</p>
+						<p>The police forces in the EU also work closely together, and an EU body, Europol, coordinates the data. They are not supercops, charging around Europe with guns blazing, but national police officers who compile information on crime and criminals and make it available to police forces throughout the EU. This is always about serious crime. Europol is not concerned with illegal parking. It is concerned with human traffickers and drug smugglers, counterfeiters and sex offenders, stolen car dealers and Internet fraudsters, who are happy to exploit the open borders for their unscrupulous activities.</p>
+						<p>Environmental pollution does not stop at frontier signs. That is why the threat to our environment can only be tackled collectively. This affects us directly, because we all breathe, we drink and consume water, and we eat the crops that grow in the fields. European environmental protection lays down common standards to ensure that one EU country cannot gain economic advantage over another by ignoring environmental rules and so producing cheaper goods. The requirement for fairness in the European single market safeguards jobs because it prevents unfair competition.</p>
+						<p>Many people refuse to eat genetically modified foodstuffs. But how can we know whether our cornflakes are made from genetically modified maize? The EU has forced all food manufacturers to label their products. If they contain GM ingredients, they must say so.</p>
+						<p>We could go on. But it is already obvious by now: Europe — that is all of us. And Europe affects us all.</p>
+					</sec>
+				</sec>
+			</body>
+		</book-part>
+		<book-part>
+			<!--EXAMPLE from DOC "NAAD14001ENN-GeneralReportOfActivities" p. 18-29 and 47-->
+			<body>
+				<sec>
+					<label>Chapter 2</label>
+					<title>Towards economic, fiscal and banking union</title>
+					<!--EXAMPLE INCLUSION Image splitted on two pages-->
+					<graphic id="f110" orientation="portrait" position="float" xlink:href="NAAD14001ENN_001.jpg"/>
+					<sec>
+						<p>
+							<styled-content specific-use="print" style="drop cap">T</styled-content>he major transformation of economic and budgetary
+							coordination in the EU continued in 2013, demonstrating that the EU is
+							making lasting changes and tackling the serious budgetary and structural
+							problems that built up over the last decade or more. The third European
+							semester — the EU’s integrated cycle for economic and budgetary
+							coordination — allowed Member States’ economic policies to be assessed
+							in a comprehensive and timely manner, with due attention paid to
+							interdependencies and spillovers across countries. Furthermore, the
+							introduction of the ‘two-pack’ legislation strengthened budgetary
+							surveillance in the euro area.</p>
+						<p>Member States worked hard in 2013 to get public finances under control
+							and succeeded in halving the EU’s overall budget deficit from its peak
+							in 2009. They also engaged in structural reforms — the fundamental
+							economic reforms to pension and tax systems, labour laws or product and
+							service markets. These have changed the way economies function and can
+							enhance Member States’ potential to grow and create jobs. Ireland became
+							the first country to exit its economic adjustment programme.</p>
+						<p>In addition to reinforced capital requirements for banks, which enter
+							into force on 1 January 2014, the EU has made significant progress
+							towards the completion of a banking union in the euro area in order to
+							increase financial stability and protect taxpayers’ interests. The
+							banking union is open to all Member States, and also to non-euro area
+							countries. Only a common system will succeed in breaking the vicious
+							cycle in which sovereigns and their banks reinforce each other’s
+							difficulties. One central pillar of the banking union — the Single
+							Supervisory Mechanism — was agreed in 2013 and will become fully
+							operational in 2014. It will be complemented by a second pillar, the
+							Single Resolution Mechanism, on which the Parliament and the Council
+							adopted their respective positions in December 2013 with a view to swift
+							trilogue negotiations in 2014. These two mechanisms, underpinned by a
+							single banking rule book common to all 28 EU Member States, will make
+							banks more stable and avoid the prospect of taxpayers picking up the
+							bill for failing banks in the future.</p>
+						<fig>
+							<caption>
+								<p>Banner hanging from the European Commission Berlaymont building
+									in Brussels, Belgium, welcoming Latvia to the euro area.</p>
+							</caption>
+							<graphic id="f210" orientation="portrait" position="float" xlink:href="NAAD14001ENN_002.jpg"/>
+						</fig>
+					</sec>
+					<sec>
+						<title>Enhancing European economic governance and reinforcing Europe’s
+							growth agenda</title>
+						<sec>
+							<title>The European semester</title>
+							<p>A key instrument in the European Union’s economic governance system
+								is the European semester, which entered its third year in 2013. The
+								semester process ensures the close coordination of Member States’
+								budgetary policies under the Stability and Growth Pact and economic
+								policies in line with the Europe 2020 strategy, the EU’s long-term
+								growth and jobs plan.</p>
+							<fig>
+								<caption>
+									<title>THE EUROPEAN SEMESTER PROCESS</title>
+								</caption>
+								<graphic id="f310" orientation="portrait" position="float" xlink:href="NAAD14001ENN_003.jpg"/>
+							</fig>
+							<p>The purpose of the European semester is:</p>
+							<!--EXAMPLE for list-->
+							<list list-type="triangle">
+								<list-item>
+									<p>to identify the major economic and social challenges for the
+										EU and the euro area, reflecting the growing interdependence
+										between Member States;</p>
+								</list-item>
+								<list-item>
+									<p>to assess policy progress, detect new policy challenges early
+										on and, through country-specific recommendations (CSRs),
+										guide Member States to implement their policies in ways that
+										help the EU to adjust and grow sustainably, providing jobs
+										and decent living standards for all.</p>
+								</list-item>
+							</list>
+							<p>Based on the guidance given by the Commission in its 2013 annual
+								growth survey, the March 2013 European Council set EU-wide reform
+								priorities for the year ahead. These priorities remain unchanged
+								from the previous year, partly because major economic challenges
+								require sustained policy attention, but mainly because the evidence
+								shows that the EU’s strategy is working. The priorities are:</p>
+							<!--EXAMPLE for list-->
+							<list list-type="triangle">
+								<list-item>
+									<p>pursuing differentiated, growth-friendly fiscal
+										consolidation;</p>
+								</list-item>
+								<list-item>
+									<p>restoring normal lending to the economy;</p>
+								</list-item>
+								<list-item>
+									<p>promoting growth and competitiveness for today and
+										tomorrow;</p>
+								</list-item>
+								<list-item>
+									<p>tackling unemployment and the social consequences of the
+										crisis;</p>
+								</list-item>
+								<list-item>
+									<p>modernising public administration.</p>
+								</list-item>
+							</list>
+							<fig>
+								<caption>
+									<p>Olli Rehn, European Commission Vice-President responsible for
+										Economic and Monetary Affairs and the Euro, during a debate
+										on the European semester in the European Parliament in
+										Strasbourg, France.</p>
+								</caption>
+								<graphic id="f410" orientation="portrait" position="float" xlink:href="NAAD14001ENN_004.jpg"/>
+							</fig>
+						</sec>
+						<sec>
+							<title>Country-specific recommendations</title>
+							<p>These priorities informed the Member States’ economic and fiscal
+								plans over the course of 2013. In April, Member States submitted
+								their medium-term budgetary plans (stability or convergence
+								programmes) and planned economic reforms (national reform
+								programmes) to the Commission for assessment. Based on an integrated
+								analysis covering fiscal, macroeconomic and structural policies, the
+								Commission proposed concrete policy advice for each country, or
+								CSRs, at the end of May. The CSRs were discussed by the Member
+								States, and subsequently endorsed by the June European Council and
+								adopted by the Council of the European Union in July. Policy advice
+								was thus given to Member States before they started to finalise
+								their draft national budgets and reform plans for 2014. The
+								Commission closely monitored the implementation of the CSRs during
+								the second half of 2013. The Commission also took action to ensure
+								that EU cohesion policy complemented fiscal consolidation and
+								structural reforms, by supporting investment in growth and jobs and
+								the implementation of CSRs.</p>
+							<fig>
+								<caption>
+									<title>COUNTRY-SPECIFIC RECOMMENDATIONS PER MEMBER STATE</title>
+								</caption>
+								<graphic id="f510" orientation="portrait" position="float" xlink:href="NAAD14001ENN_005.jpg"/>
+							</fig>
+						</sec>
+						<sec>
+							<title>Assessment of euro area draft budget plans</title>
+							<p>In May 2013, the ‘two-pack’ budgetary legislation for the euro area
+								entered into force. October 2013 marked the first concrete instance
+								of the new rules in action, as euro area Member States submitted
+								their draft national budgetary plans to the Commission for its
+								views. The Commission’s overall assessment of these budgetary plans
+								on 15 November was relatively positive. Most plans were found to be
+								broadly in line with the debt and deficit commitments made by euro
+								area countries, including those under the excessive deficit
+								procedure (the EU’s strengthened monitoring system for countries
+								with deficits over 3 % of GDP). However, in some countries, the
+								Commission found there was little room for manoeuvre.</p>
+							<p>The Commission’s opinions and the draft budgetary plans themselves
+								were carefully scrutinised and discussed by finance ministers in the
+								Eurogroup in November. They found that compliance with the rules of
+								the Stability and Growth Pact was at risk for a number of countries,
+								but ministers also manifested their full commitment to addressing
+								this risk. It was agreed that Member States should focus on the
+								quality and composition of any further fiscal adjustments so as to
+								ensure these are as growth friendly as possible.</p>
+							<!--EXAMPLE for boxed-text-->
+							<boxed-text>
+								<sec>
+									<title>The ‘two-pack’ enters into force</title>
+									<!--EXAMPLE for footnote-->
+									<p>The two regulations constituting the ‘two-pack’<xref rid="n1">(1)</xref> complement the Stability and Growth Pact but
+										apply only to euro area Member States. They entered into
+										force on 30 May 2013 and were applied for the first time
+										with the start of the new European semester in autumn. They
+										address the need for reinforced budgetary coordination
+										resulting from the close interconnectedness of the Member
+										States of the currency union. One of the most important
+										features of this is that the European Commission assesses
+										national draft budgetary plans and issues recommendations
+										where necessary. They also create a Union framework for
+										dealing with countries with financial difficulties. The
+										‘two-pack’ integrates commitments made in the Treaty on
+										Stability, Coordination and Governance in the Economic and
+										Monetary Union into EU law.</p>
+									<p>The main features of the ‘two-pack’ are as follows.</p>
+									<!--EXAMPLE for list-->
+									<list list-type="order">
+										<list-item>
+											<label>1.</label>
+											<p>Tighter monitoring and closer coordination of
+												budgetary policy within the euro area, including a
+												common assessment of draft budgetary plans in autumn
+												and continuous surveillance of excessive deficits in
+												the euro area.</p>
+										</list-item>
+										<list-item>
+											<label>2.</label>
+											<p>Increasing accountability and responsibility in
+												national policy setting. In this regard, national
+												independent forecasts will form the basis for
+												national budgets, thereby increasing reliability and
+												credibility, while national independent institutions
+												will monitor compliance with national fiscal rules,
+												thus strengthening ownership of European budgetary
+												commitments.</p>
+										</list-item>
+										<list-item>
+											<label>3.</label>
+											<p>Enshrining monitoring principles used in the granting
+												of financial assistance into the Union framework.
+												This establishes new enhanced surveillance,
+												entailing closer monitoring than under the normal
+												surveillance processes, and means that the
+												obligations of countries under a macroeconomic
+												adjustment programme are placed within the EU
+												framework and that a regime for postprogramme
+												surveilalnce is introduced.</p>
+										</list-item>
+									</list>
+								</sec>
+							</boxed-text>
+						</sec>
+						<sec>
+							<title>Early detection of economic risks</title>
+							<p>The macroeconomic imbalances procedure, which came into force in
+								2011, provides for ongoing analysis of all 28 Member States’
+								economic policies throughout the year, allowing for risks such as
+								bubbles forming in housing markets or losses in competitiveness to
+								be flagged early, before they become a problem for the wider economy
+								and other Member States.</p>
+							<p>Monitoring takes place through a scoreboard of statistical
+								indicators, which is published every autumn in the alert mechanism
+								report (AMR). This is followed up with more in-depth analysis if
+								needed.</p>
+							<!--EXAMPLE for footnote-->
+							<p>In 2013, the Commission concluded that Member States were making
+								progress in correcting the imbalances that built up before the
+								crisis. A number of Member States have reduced their deficits and
+								achieved significant improvements in cost competitiveness. However,
+								further progress is needed to reduce excessive debt and improve the
+								net international investment position of the most indebted
+								economies. In the 2014 AMR <xref rid="n2">(2)</xref>, published in
+								November 2013, the Commission recommended an indepth review of
+								developments in 16 Member States facing various macroeconomic
+								challenges and potential vulnerabilities that could spill over to
+								the rest of the euro area and the wider EU. The country-specific
+								in-depth reviews will conclude in spring 2014, in time for the
+								Commission to consider whether to propose any specific action in the
+								subsequent CSRs as part of the European semester cycle.</p>
+						</sec>
+						<sec>
+							<title>Economic priorities beyond 2013</title>
+							<p>The annual growth survey found that the biggest challenge facing the
+								Union and its Member States in 2014 will be to nurture and boost the
+								recovery that got underway in 2013. The survey showed that Member
+								States made progress on the five priorities identified in 2013 and
+								have begun correcting the imbalances that developed before the
+								crisis.</p>
+							<p>Signs of economic improvement should, therefore, be taken as an
+								encouragement to pursue efforts with determination, avoiding risks
+								of fallback, complacency or ‘reform fatigue’. Fairness
+								considerations and clarity about the goals to be achieved will be
+								essential to make sure that the efforts made at national and
+								European level bring tangible results in the medium and long term,
+								and that they are accepted by citizens.</p>
+						</sec>
+						<sec>
+							<title>European Stability Mechanism</title>
+							<p>The European Stability Mechanism (ESM) saw its first full year of
+								operation in 2013. It is a vital element for safeguarding financial
+								stability within the euro area. Equipped with a lending capacity of
+								€500 billion, the ESM is a key financial backstop, providing
+								financial assistance to euro area Member States experiencing or
+								threatened by financing difficulties. The ESM has already provided
+								financial assistance to Spain, to help recapitalise its financial
+								sector, and to Cyprus, to assist in implementing its macroeconomic
+								adjustment programme. Programmes for Ireland, Greece and Portugal
+								continued to be funded jointly by the European Financial
+								Stabilisation Mechanism (EFSM), the European Financial Stability
+								Facility (EFSF) and the International Monetary Fund (IMF).</p>
+							<p>The establishment of the ESM is not a stand-alone response to the
+								sovereign debt crisis, but complements a series of reforms
+								undertaken at national, euro area and EU levels. The efforts being
+								made by Member States with respect to fiscal consolidation and
+								structural reforms, along with EU and intergovernmental initiatives
+								such as the strengthened Stability and Growth Pact, the Treaty on
+								Stability, Coordination and Governance in the EMU (including a
+								fiscal compact), the European semester and the banking union, are
+								critically important for eradicating the roots of the crisis and
+								preventing possible future crises. If, however, a euro area Member
+								State does require financial assistance, the ESM will have the
+								capacity and resources to act as a financial backstop and apply a
+								lending instrument that will bridge the financing needs of that
+								country until sovereign bond market access is re-established. To
+								fulfil its purpose, the ESM raises funds by issuing money market
+								instruments as well as medium- and long-term debt with maturities of
+								up to 30 years. ESM issuance is backed by paid-in capital of €80
+								billion and the binding obligation of ESM Member States to provide
+								their contribution to the ESM’s authorised capital stock.</p>
+							<fig>
+								<caption>
+									<title>EUROPEAN STABILITY MECHANISM IN FIGURES</title>
+								</caption>
+								<graphic id="f610" orientation="portrait" position="float" xlink:href="NAAD14001ENN_006.jpg"/>
+							</fig>
+						</sec>
+						<!--EXAMPLE for footnote-->
+						<sec>
+							<title>The social dimension of economic and monetary union</title>
+							<p>The Commission communication on strengthening the social dimension of
+								EMU <xref rid="n3">(3)</xref> proposes to establish a new scoreboard
+								of five key employment and social indicators to help to detect and
+								draw attention to major employment and social challenges in the EMU
+								that need to be addressed in the collective interest. The indicators
+								are: unemployment; youth unemployment and inactivity rate; gross
+								household disposable income; at-risk-of-poverty rate; and income
+								inequalities (ratio of top 20 % and bottom 20 %). The scoreboard was
+								included within the 2014 annual growth survey package (joint
+								employment report) and will feed into the European semester process,
+								potentially shaping CSRs, but without any sanctions.</p>
+							<fig>
+								<caption>
+									<title>OVERVIEW OF THE RESULTS OF THE LATEST FLASH EUROBAROMETER
+										(FL 386) IN THE 17 EURO AREA COUNTRIES</title>
+									<p>57 % (+ 2 %) of EU citizens living in the euro area say that
+										the single currency is a good thing. In 2011 this was 56 %;
+										this number then dropped by 1 percentage point to 55 % in
+										2012, and is now up to 57 %.</p>
+								</caption>
+								<graphic id="f710" orientation="portrait" position="float" xlink:href="NAAD14001ENN_007.jpg"/>
+							</fig>
+						</sec>
+					</sec>
+					<sec>
+						<title>Financial assistance: details of programmes for Ireland, Greece,
+							Spain, Cyprus and Portugal</title>
+						<sec>
+							<title>Ireland</title>
+							<p>Ireland became the first country to successfully exit its economic
+								adjustment programme in December 2013. The programme had been
+								formally agreed in December 2010. It included a joint financing
+								package of €85 billion and covered the period 2010–13.</p>
+							<boxed-text position="margin">
+								<p>‘The successful conclusion of the Irish programme is a strong
+									signal that our common response to the crisis is delivering
+									results’ — Olli Rehn, Commission Vice-President responsible for
+									Economic and Monetary Affairs and the Euro.</p>
+							</boxed-text>
+							<p>On 21 November 2010, Ireland officially requested financial
+								assistance from the EU and the IMF. The economic adjustment
+								programme for Ireland included contributions from the EU/EFSM (€22.5
+								billion); euro area Member States/EFSF (€17.7 billion); bilateral
+								contributions from the United Kingdom (€3.8 billion), Sweden (€0.6
+								billion) and Denmark (€0.4 billion); and funding from the IMF (€22.5
+								billion). Moreover, there is an Irish contribution through the
+								treasury cash buffer and investments of the National Pension Reserve
+								Fund.</p>
+							<p>The programme’s objectives were:</p>
+							<!--EXAMPLE for list-->
+							<list list-type="triangle">
+								<list-item>
+									<p>immediate strengthening and comprehensive overhaul of the
+										banking sector;</p>
+								</list-item>
+								<list-item>
+									<p>ambitious fiscal adjustment to restore fiscal sustainability,
+										with correction of the excessive deficit by 2015;</p>
+								</list-item>
+								<list-item>
+									<p>growth-enhancing reforms, in particular on the labour market,
+										to allow a return to robust and sustainable growth.</p>
+								</list-item>
+							</list>
+							<!--EXAMPLE for table-->
+							<table-wrap>
+								<caption>
+									<title>DISBURSEMENT FIGURES FOR IRELAND (BILLION €)</title>
+									<p>Please note that some figures have been rounded, and the
+										totals therefore may not represent the exact sums contained
+										in the rows and columns.</p>
+								</caption>
+								<table>
+									<thead>
+										<tr>
+											<th>Review</th>
+											<th>Date</th>
+											<th>EFSF</th>
+											<th>EFSM</th>
+											<th>IMF</th>
+											<th>Bilateral</th>
+											<th>Total</th>
+										</tr>
+									</thead>
+									<tbody>
+										<tr>
+											<td>
+												<p>1st</p>
+											</td>
+											<td>
+												<p>Q1 2011</p>
+											</td>
+											<td>
+												<p>3.6</p>
+											</td>
+											<td>
+												<p>8.4</p>
+											</td>
+											<td>
+												<p>5.8</p>
+											</td>
+											<td>
+												<p>0.0</p>
+											</td>
+											<td>
+												<p>17.8</p>
+											</td>
+										</tr>
+										<tr>
+											<td>
+												<p>2nd</p>
+											</td>
+											<td>
+												<p>Q2 2011</p>
+											</td>
+											<td>
+												<p>0.0</p>
+											</td>
+											<td>
+												<p>3.0</p>
+											</td>
+											<td>
+												<p>1.4</p>
+											</td>
+											<td>
+												<p>0.0</p>
+											</td>
+											<td>
+												<p>4.4</p>
+											</td>
+										</tr>
+										<tr>
+											<td>
+												<p>3rd</p>
+											</td>
+											<td>
+												<p>Q3 2011</p>
+											</td>
+											<td>
+												<p>3.0</p>
+											</td>
+											<td>
+												<p>2.5</p>
+											</td>
+											<td>
+												<p>1.5</p>
+											</td>
+											<td>
+												<p>0.5</p>
+											</td>
+											<td>
+												<p>7.4</p>
+											</td>
+										</tr>
+										<tr>
+											<td>
+												<p>4th</p>
+											</td>
+											<td>
+												<p>Q4 2011</p>
+											</td>
+											<td>
+												<p>2.7</p>
+											</td>
+											<td>
+												<p>1.5</p>
+											</td>
+											<td>
+												<p>3.9</p>
+											</td>
+											<td>
+												<p>0.5</p>
+											</td>
+											<td>
+												<p>8.6</p>
+											</td>
+										</tr>
+										<tr>
+											<td>
+												<p>5th</p>
+											</td>
+											<td>
+												<p>Q1 2012</p>
+											</td>
+											<td>
+												<p>2.8</p>
+											</td>
+											<td>
+												<p>3.0</p>
+											</td>
+											<td>
+												<p>3.2</p>
+											</td>
+											<td>
+												<p>0.7</p>
+											</td>
+											<td>
+												<p>9.7</p>
+											</td>
+										</tr>
+										<tr>
+											<td>
+												<p>6th</p>
+											</td>
+											<td>
+												<p>Q2 2012</p>
+											</td>
+											<td>
+												<p>0.0</p>
+											</td>
+											<td>
+												<p>2.3</p>
+											</td>
+											<td>
+												<p>1.5</p>
+											</td>
+											<td>
+												<p>0.5</p>
+											</td>
+											<td>
+												<p>4.2</p>
+											</td>
+										</tr>
+										<tr>
+											<td>
+												<p>7th</p>
+											</td>
+											<td>
+												<p>Q3 2012</p>
+											</td>
+											<td>
+												<p>0.0</p>
+											</td>
+											<td>
+												<p>1.0</p>
+											</td>
+											<td>
+												<p>0.9</p>
+											</td>
+											<td>
+												<p>0.7</p>
+											</td>
+											<td> </td>
+										</tr>
+										<tr>
+											<td>
+												<p>8th</p>
+											</td>
+											<td>
+												<p>Q4 2012</p>
+											</td>
+											<td>
+												<p>0.8</p>
+											</td>
+											<td>
+												<p>0.0</p>
+											</td>
+											<td>
+												<p>0.9</p>
+											</td>
+											<td>
+												<p>0.5</p>
+											</td>
+											<td>
+												<p>2.2</p>
+											</td>
+										</tr>
+										<tr>
+											<td>
+												<p>9th</p>
+											</td>
+											<td>
+												<p>Q1 2013</p>
+											</td>
+											<td>
+												<p>1.6</p>
+											</td>
+											<td>
+												<p>0.0</p>
+											</td>
+											<td>
+												<p>1.1</p>
+											</td>
+											<td>
+												<p>0.7</p>
+											</td>
+											<td>
+												<p>3.43</p>
+											</td>
+										</tr>
+										<tr>
+											<td>
+												<p>10th</p>
+											</td>
+											<td>
+												<p>Q2 2013</p>
+											</td>
+											<td>
+												<p>1.0</p>
+											</td>
+											<td>
+												<p>0.0</p>
+											</td>
+											<td>
+												<p>1.0</p>
+											</td>
+											<td>
+												<p>0.5</p>
+											</td>
+											<td>
+												<p>2.4</p>
+											</td>
+										</tr>
+										<tr>
+											<td>
+												<p>11th</p>
+											</td>
+											<td>
+												<p>Q3 2013</p>
+											</td>
+											<td>
+												<p>2.3</p>
+											</td>
+											<td>
+												<p>0.0</p>
+											</td>
+											<td>
+												<p>0.76</p>
+											</td>
+											<td>
+												<p>0.25</p>
+											</td>
+											<td>
+												<p>3.31</p>
+											</td>
+										</tr>
+										<tr>
+											<td>
+												<p>12th</p>
+											</td>
+											<td>
+												<p>Q4 2013</p>
+											</td>
+											<td>
+												<p>0.0</p>
+											</td>
+											<td>
+												<p>0.8</p>
+											</td>
+											<td>
+												<p>0.6</p>
+											</td>
+											<td>
+												<p>0.0</p>
+											</td>
+											<td>
+												<p>1.4</p>
+											</td>
+										</tr>
+										<tr>
+											<th colspan="2">
+												<p>Total disbursements</p>
+											</th>
+											<th>
+												<p>17.7</p>
+											</th>
+											<th>
+												<p>22.5</p>
+											</th>
+											<th>
+												<p>22.5</p>
+											</th>
+											<th>
+												<p>4.8</p>
+											</th>
+											<th>
+												<p>67.5</p>
+											</th>
+										</tr>
+									</tbody>
+								</table>
+								<table-wrap-foot>
+									<p>Please note that some figures have been rounded, and the
+										totals therefore may not represent the exact sums contained
+										in the rows and columns.</p>
+								</table-wrap-foot>
+							</table-wrap>
+							<!--EXAMPLE for boxed-->
+							<boxed-text>
+								<sec>
+									<title>Ireland exits programme</title>
+									<p>Euro area finance ministers endorsed the 12th and final
+										review of the Irish adjustment programme in December 2013.
+										The endorsement was based on the Commission’s draft
+										compliance report released in November 2013. The Commission
+										supported the Irish government’s decision to exit the
+										adjustment programme in December as planned, and without a
+										pre-arranged precautionary credit facility. The Eurogroup
+										commended the Irish authorities for their steadfast
+										implementation of the programme and noted that the then
+										imminent completion of the Irish programme was proof that
+										the EU’s strategy for responding to the crisis was
+										delivering results. Final disbursements to Ireland by the
+										EFSF, the EFSM and the IMF are ongoing.</p>
+								</sec>
+							</boxed-text>
+							<fig>
+								<caption>
+									<title>The Irish economy is recovering</title>
+									<p>Demand components of GDP (left axis), growth in real GDP
+										(right axis).</p>
+								</caption>
+								<graphic id="f8.1" orientation="portrait" position="float" xlink:href="NAAD14001ENN_008.jpg"/>
+							</fig>
+							<fig>
+								<caption>
+									<title>Fiscal adjustment in Ireland is ongoing</title>
+								</caption>
+								<graphic id="f9.1" orientation="portrait" position="float" xlink:href="NAAD14001ENN_009.jpg"/>
+								<!--EXAMPLE for list-->
+								<list list-type="notes">
+									<list-item>
+										<label>(1)</label>
+										<p>Underlying government deficit excludes deficit-increasing
+											financial-sector measures.</p>
+									</list-item>
+									<list-item>
+										<label>(2)</label>
+										<p>Percentage points.</p>
+									</list-item>
+									<list-item>
+										<label>(3)</label>
+										<p>Tax revenue includes direct and indirect taxes, and
+											social contributions.</p>
+									</list-item>
+									<list-item>
+										<label>(4)</label>
+										<p>A minus sign signifies a worsening of the government
+											deficit.</p>
+									</list-item>
+								</list>
+							</fig>
+						</sec>
+					</sec>
+				</sec>
+				<sec>
+					<!--EXAMPLE for Endnotes-->
+					<fn-group>
+						<title>Endnotes</title>
+						<fn id="n1" fn-type="endnote">
+							<label>(1)</label>
+							<p>Regulation (EU) No 472/2013 on the strengthening of economic and budgetary surveillance of Member States in the euro area experiencing or threatened with serious difficulties with respect to their financial stability (OJ L 140, 27.5.2013)</p>
+							<p>Regulation (EU) No 473/2013 on common provisions for monitoring and assessing draft budgetary plans and ensuring the correction of excessive deficit of the Member States in the euro area (OJ L 140, 27.5.2013).</p>
+						</fn>
+						<fn id="n2" fn-type="endnote">
+							<label>(2)</label>
+							<p>Commission report — Alert mechanism report 2014 (COM(2013) 790).</p>
+						</fn>
+						<fn id="n3" fn-type="endnote">
+							<label>(3)</label>
+							<p>Commission communication — Strengthening the social dimension of the economic and monetary union (COM(2013) 690).</p>
+						</fn>
+					</fn-group>
+					<notes>
+						<title>PHOTO CREDITS</title>
+						<p>European Union: pages 20, 22, 34</p>
+						<p>iStockphoto.com/Stefan_Redel: page 43</p>
+						<p>European Central Bank: page 44</p>
+					</notes>
+				</sec>
+			</body>
+		</book-part>
+		<book-part>
+			<!--EXAMPLE from DOC "QJAB14016ENC-SpecialReport" P4-5 and 13-18 -->
+			<body>
+				<!--EXAMPLE of glossary and abbreviations -->
+				<sec>
+					<glossary>
+						<title>Glossary and abbreviations</title>
+						<def-list>
+							<def-item>
+								<term specific-use="abbreviation">AFD</term>
+								<x>:</x>
+								<def specific-use="meaning">
+									<p>Agence française de développement</p>
+								</def>
+								<def>
+									<p>AFD is a French public development finance institution that fights poverty and fosters economic growth in developing countries and the French Overseas Provinces. It is the main implementing agency for France’s development cooperation.</p>
+								</def>
+							</def-item>
+							<def-item>
+								<term specific-use="abbreviation">AIF</term>
+								<x>:</x>
+								<def specific-use="meaning">
+									<p>Asian Investment Facility</p>
+								</def>
+							</def-item>
+							<def-item>
+								<term specific-use="abbreviation">CIF</term>
+								<x>:</x>
+								<def specific-use="meaning">
+									<p>Caribbean Investment Facility</p>
+								</def>
+							</def-item>
+							<def-item>
+								<term>Concessional loan</term>
+								<x>:</x>
+								<def>
+									<p>A concessional loan is a loan with terms that are significantly more favourable than the terms of loans at market conditions. The IMF calculates the concessionality level as the difference between the loan’s nominal value and the sum of the discounted future debt-service payments to be made by the borrower, expressed as a percentage of the loan’s nominal value.</p>
+								</def>
+							</def-item>
+							<def-item>
+								<term specific-use="abbreviation">EBRD</term>
+								<x>:</x>
+								<def specific-use="meaning">
+									<p>European Bank for Reconstruction and Development</p>
+								</def>
+								<def>
+									<p>The EBRD is a publicly owned development bank based in London that promotes transition to open,
+								market-based economies in countries from central and eastern Europe to central Asia and the southern and
+								eastern Mediterranean. It provides project financing for banks, industries and businesses, both new ventures and
+								investments in existing companies. It focuses on the private sector but also works with publicly owned companies.</p>
+								</def>
+							</def-item>
+							<def-item>
+								<term specific-use="abbreviation">EDF</term>
+								<x>:</x>
+								<def specific-use="meaning">
+									<p>European Development Fund</p>
+								</def>
+								<def>
+									<p>The EDFs are the main instrument for providing European Union aid for development cooperation to the African, Caribbean and Pacific States and overseas countries and territories. The partnership agreement signed in Cotonou on 23 June 2000 for a period of 20 years (‘the Cotonou Agreement’) is the current framework for the European Union’s relations with these countries and territories. Its focus is on reducing and eventually eradicating poverty.</p>
+								</def>
+							</def-item>
+							<def-item>
+								<term specific-use="abbreviation">EIB</term>
+								<x>:</x>
+								<def specific-use="meaning">
+									<p>European Investment Bank</p>
+								</def>
+								<def>
+									<p>The EIB is the European Union’s bank. It is owned by and represents the interests of the European Union Member States and works closely with other EU institutions to implement EU policy by providing finance for investment projects.</p>
+								</def>
+							</def-item>
+							<def-item>
+								<term>EU Delegation</term>
+								<x>:</x>
+								<def>
+									<p>The EU is represented through 139 EU delegations and offices around the world. The EU Delegations are part of the European Commission structure but serve EU interests as a whole.</p>
+								</def>
+							</def-item>
+							<def-item>
+								<term>EuropeAid</term>
+								<x>:</x>
+								<def>
+									<p>Directorate-General for Development and Cooperation — EuropeAid</p>
+								</def>
+							</def-item>
+							<def-item>
+								<term specific-use="abbreviation">IFCA</term>
+								<x>:</x>
+								<def specific-use="meaning">
+									<p>Investment Facility for Central Asia</p>
+								</def>
+							</def-item>
+							<def-item>
+								<term specific-use="abbreviation">IFP</term>
+								<x>:</x>
+								<def specific-use="meaning">
+									<p>Investment Facility for the Pacific</p>
+								</def>
+							</def-item>
+							<def-item>
+								<term specific-use="abbreviation">IMF</term>
+								<x>:</x>
+								<def specific-use="meaning">
+									<p>International Monetary Fund</p>
+								</def>
+							</def-item>
+							<def-item>
+								<term specific-use="abbreviation">ITF</term>
+								<x>:</x>
+								<def specific-use="meaning">
+									<p>EU–Africa Infrastructure Trust Fund</p>
+								</def>
+							</def-item>
+							<def-item>
+								<term specific-use="abbreviation">KfW</term>
+								<x>:</x>
+								<def specific-use="meaning">
+									<p>Kreditanstalt für Wiederaufbau</p>
+								</def>
+								<def>
+									<p>KfW is the promotional bank of the Federal Republic of Germany and is based in Frankfurt. The development branch of the bank carries out German financial development cooperation on behalf of the government.</p>
+								</def>
+							</def-item>
+							<def-item>
+								<term specific-use="abbreviation">LAIF</term>
+								<x>:</x>
+								<def specific-use="meaning">
+									<p>Latin America Investment Facility</p>
+								</def>
+							</def-item>
+							<def-item>
+								<term specific-use="abbreviation">MRI</term>
+								<x>:</x>
+								<def specific-use="meaning">
+									<p>Mutual Reliance Initiative</p>
+								</def>
+								<def>
+									<p>The MRI is a formal framework set up in 2009 by AFD, EIB and KfW with the purpose of increasing effectiveness in co-financing development projects. Its main features are the delegation of most tasks to the lead financier of an
+								operation and the mutual recognition of procedures.</p>
+								</def>
+							</def-item>
+							<def-item>
+								<term specific-use="abbreviation">NIF</term>
+								<x>:</x>
+								<def specific-use="meaning">
+									<p>Neighbourhood Investment Facility</p>
+								</def>
+							</def-item>
+							<def-item>
+								<term specific-use="abbreviation">ROM</term>
+								<x>:</x>
+								<def specific-use="meaning">
+									<p>Results Oriented Monitoring</p>
+								</def>
+								<def>
+									<p>The ROM system is a review tool for projects and programmes, which provides recommendations for improvement.</p>
+								</def>
+							</def-item>
+							<def-item>
+								<term specific-use="abbreviation">WBIF</term>
+								<x>:</x>
+								<def specific-use="meaning">
+									<p>Western Balkans Investment Framework</p>
+								</def>
+							</def-item>
+						</def-list>
+					</glossary>
+				</sec>
+				<!--EXAMPLE of Observations -->
+				<sec>
+					<title>Observations</title>
+					<sec>
+						<title>The regional investment facilities have been set up in an appropriate manner, but the Commission’s management is still affected by shortcomings</title>
+						<sec>
+							<!--EXAMPLE of label -->
+							<label>16</label>
+							<p>The Court examined whether the overall set-up of the regional investment facilities and the procedural framework were appropriate. The audit also focused on the procedure for assessing grant applications, the justification for the projects selected and the appropriateness of the type and amount of the grants. Finally, the implementation of the grants and monitoring of the projects were also examined as part of the audit.</p>
+						</sec>
+						<sec>
+							<title>The set-up of the regional investment facilities is satisfactory and the regulatory and procedural framework is improving</title>
+							<sec>
+								<label>17</label>
+								<p>It is appropriate to have eight different regional investment facilities instead of one global investment facility because:</p>
+								<!--EXAMPLE of alphabetic list -->
+								<list list-type="lower-alpha">
+									<list-item>
+										<label>(a)</label>
+										<p>the facilities have different structures for combining the funding from the various donors involved and channelling it to the projects;</p>
+									</list-item>
+									<list-item>
+										<label>(b)</label>
+										<p>EU funding to the geographical investment facilities comes from different financial instruments, which have different legal bases;</p>
+									</list-item>
+									<list-item>
+										<label>(c)</label>
+										<p>the allocation of responsibilities within the Commission and the financial institutions is geographically based;</p>
+									</list-item>
+									<list-item>
+										<label>(d)</label>
+										<p>the parties represented in the various governance bodies (see paragraph 6) vary from region to region.</p>
+									</list-item>
+								</list>
+							</sec>
+							<sec>
+								<label>18</label>
+								<p>The objectives and priority sectors under all the regional investment facilities are aligned with global EU policy objectives. In the case of the ITF, only projects with a regional dimension were eligible, which limited the potential for blending.</p>
+							</sec>
+							<sec>
+								<label>19</label>
+								<!--EXAMPLE of notecall + note (on the right part) -->
+								<p>The Financial Regulation<fn fn-type="side" id="fn13">
+										<label>13</label>
+										<p>Regulation No 966/2012 of the
+									European Parliament and of the Council of 25 October 2012 on the financial rules applicable to the general budget of the Union and repealing Council Regulation (EC, Euratom) No 1605/2002 (OJ L 298, 26.10.2012, p. 1).</p>
+									</fn> recently introduced specific rules on blending mechanisms<fn fn-type="side" id="fn14">
+										<label>14</label>
+										<p>A new Title VIII, Financial Instruments, was introduced.</p>
+									</fn>. These rules, applicable from 2014 onwards, significantly improve the regulatory framework by defining concepts and principles, simplifying the management modes used for blending, and providing the legal basis to use innovative financing tools. The Commission is currently further improving the framework by preparing guidelines for the management of the regional investment facilities<fn fn-type="side" id="fn15">
+										<label>15</label>
+										<p>Practical guidelines that have helped partner countries to understand the requirements connected with WBIF project applications and submissions have existed since 2012.</p>
+									</fn>.</p>
+							</sec>
+							<sec>
+								<label>20</label>
+								<p>While the Commission has made some progress in this area, projects were generally initiated by financial institutions with the Commission responding to these proposals and the ensuing grant requests, rather than actively identifying operations.</p>
+							</sec>
+							<sec>
+								<label>21</label>
+								<p>The secretariat of the ITF is operated by the EIB (see paragraph 8). In view of the fact that the EIB is a project financier and irrespective of the fact that the secretariat is ring-fenced from the EIB’s banking activities, this is an issue that needs to be addressed.</p>
+							</sec>
+						</sec>
+						<sec>
+							<title>Suitable projects are selected but the Commission’s assessment does not focus adequately on the added value and amount of EU grants</title>
+							<sec>
+								<title>Selection of projects for grants assistance</title>
+								<sec>
+									<label>22</label>
+									<p>The process for identifying and selecting projects enabled sufficient grant applications to be made in order for the funding allocated to be committed within the planned timeframe. The projects approved were relevant to the development needs of the regions and countries concerned.</p>
+								</sec>
+								<sec>
+									<label>23</label>
+									<p>To request a grant from a regional investment facility, financial institutions need to submit a grant application form<fn fn-type="side" id="fn16">
+											<label>16</label>
+											<p>The ‘Standard Project Submission Form’ in the case of the geographical investment facilities managed by EuropeAid, the ‘Project Grant Application Form’ for the WBIF and the ‘Cover Sheet’ for the ITF.</p>
+										</fn>. Although they became longer and more detailed over time, the information provided by the financial institutions before grant approval was too general for appropriate decision-making by the executive bodies of the regional investment facilities. Quantified data were lacking on loan conditions, concessionality (see <xref ref-type="box">Box 1</xref>) and viability (see <xref ref-type="box" rid="box2">Box 2</xref> for an example). Furthermore, the expected added value of providing a grant was not well formulated, structured or quantified.
+									<boxed-text id="box2">
+											<label>Box2</label>
+											<sec>
+												<title>ITF project — Power rehabilitation in Benin and Togo</title>
+												<p>The project concerned the construction and refurbishing of electricity transmission lines and substations for
+												a total of 85,7 million euro. It aimed to improve the reliability and efficiency of the electricity supply in Benin and Togo. The ITF granted an interest rate subsidy of 12,25 million euro which enabled the concessionality level of 35 % to be met, as required by the IMF (see <xref ref-type="box">Box 1</xref>).</p>
+											</sec>
+											<sec>
+												<title>Insufficient information provided by the financial institution</title>
+												<p>The grant application form provided by the financial institutions does not include figures on the financial and economic viability of the project, concessionality and the alignment of the project with the countries’ needs even though it was all available in the financial institution’s files. Furthermore, the form was unclear about the expected added value of the ITF grant. Without this information, the Commission could not carry out an appropriate assessment of the grant request.</p>
+											</sec>
+										</boxed-text>
+									</p>
+								</sec>
+								<sec>
+									<label>24</label>
+									<p>An underlying reason why the information provided by the financial institutions was limited was that projects were often still at the preliminary stage when the grant applications were made. The financial institutions decide on their loans at a later stage, i.e. after the feasibility study. Their decisions were therefore based on better, more detailed information than the Commission had when it assessed the grant applications.</p>
+								</sec>
+								<sec>
+									<label>25</label>
+									<p>Although there is no particular guidance for this, the Commission has improved its reviews of grant applications over time. However, the reviews remain largely based on the information presented in the grant application form and are therefore limited by it. For the projects examined, the reviews paid little attention to concessionality, debt sustainability, the grant amount or economic viability. The Commission has not established criteria for the economic viability. In fact, it has no clear rules or guidance as to which type of development investments should be financed by either grants, loans or a blend of the two.</p>
+								</sec>
+								<sec>
+									<label>26</label>
+									<p>The Commission’s reviews progressively involved the relevant EU delegations by consulting them when assessing grant applications. The Court’s examination of projects and interviews with delegation staff indicated that this involvement was still insufficient, in particular during the identification phase. Only 59 % of the 22 EU delegations that responded to the Court’s survey said they were involved in the identification rocess of blended projects. This limited the extent of ownership of projects by the delegations. However, once financial institutions applied for a grant, the Commission asked most of the delegations to provide their views on the projects selected for their respective countries.</p>
+								</sec>
+								<sec>
+									<label>27</label>
+									<p>The average number of days from introduction in the pipeline to final board approval is 215 for the ITF, 257 for the LAIF and 290 for the NIF<fn fn-type="side" id="fn17">
+											<label>17</label>
+											<p>The information necessary to alculate this was not available for the other regional investment facilities.</p>
+										</fn>. In the LAIF and the NIF, each project needed provisional and final approval at both technical and board level, which was time-consuming. This procedure was somewhat lighter for the ITF, which did not require provisional approvals<fn fn-type="side" id="fn18">
+											<label>18</label>
+											<p>Although the possibility exists for financial institutions to request a so‑called ‘Cleared in principle’ from the Executive Committee.</p>
+										</fn>.</p>
+								</sec>
+							</sec>
+							<sec>
+								<title>Selection of grant type and amount</title>
+								<sec>
+									<label>28</label>
+									<p>The grant types chosen (see <xref ref-type="paragraph">paragraph 1</xref>) were appropriate for the added value they intended to achieve. Only the ITF provided interest rate subsidies; the other regional investment facilities did not, even though this was permitted by their regulatory and contractual framework.</p>
+								</sec>
+								<sec>
+									<label>29</label>
+									<p>Eleven of the 30 grants examined by the Court aimed to ensure that the loan met the minimum concessionality level of 35 % required by the IMF (see <xref ref-type="box">Box 1</xref>). For seven of these 11 grants, the Court could not obtain evidence from the Commission or the financial institutions showing that the concessionality level was not higher than needed to meet the IMF requirement. In one case, the concessionality level exceeded the minimum of 35 % without the Commission being informed of it.</p>
+								</sec>
+								<sec>
+									<label>30</label>
+									<p>There were no established criteria for setting the amounts of grants where the main objective was other than compliance with IMF requirements. In the cases examined, it was often unclear how amounts had been decided upon. Furthermore, the Commission did not consider it necessary to carry out a rigorous verification of the way the grant amounts requested by financial institutions have been calculated.</p>
+								</sec>
+								<sec>
+									<label>31</label>
+									<p>In theory, financial institutions could set an interest rate that is higher than normal and have it accepted by the beneficiary by including a grant in the financial package. Consequently, there is a risk that the benefit of grants is not fully transferred to the beneficiary. Although the public development financial institutions are responsible for providing the most appropriate financing conditions, neither the Commission nor the Court can exclude that this risk may materialise as they don’t have the means to examine this due to the confidentiality of how interest rates are set<fn fn-type="side" id="fn19">
+											<label>19</label>
+											<p>As already observed by the Court in paragraph 3.2 of Special Report No 3/99 on the management and control of interest rate subsidies by the Commission (OJ C 217, 29.7.1999, p. 1).</p>
+										</fn>.</p>
+								</sec>
+							</sec>
+							<sec>
+								<title>The Commission makes advance disbursements that are unnecessarily high</title>
+								<sec>
+									<label>32</label>
+									<p>Once grants have been approved and agreements signed, considerable advance disbursements were made. The Commission had the funds available and transferred these before they were needed. The beneficiary used these funds slowly because it took time to set up the project and contract the necessary services and works and because of the duration of implementation. The funds transferred remained therefore unused for long periods of time, contrary to the principles of sound financial management (see <xref ref-type="box" rid="box3">Box 3</xref> for an example). As a consequence, the budgetary outturn does not reflect the actual underlying activity of the facilities.</p>
+								</sec>
+								<sec>
+									<label>33</label>
+									<p>For the ITF, the Commission makes transfers to the fund and then the EIB, as manager of the fund, transfers grants from the fund to the lead financial institution. The ITF’s executive board approves grants for a total that does not exceed the cash balance available in the fund. With this prudent approach, the ITF ensures that it will be able to meet its commitments. As it takes time before project implementation actually starts, the beneficiary will disburse the respective amounts only some years later. As a result, a large amount of money lies dormant in the fund’s bank account for years (see the <xref ref-type="fig" rid="fig">Figure</xref>).
+									
+									<!--EXAMPLE of boxed -->
+										<boxed-text id="box3">
+											<label>Box3</label>
+											<sec>
+												<title>NIF project — Second phase of the Tunis fast railway network</title>
+												<p>This 550 million euro project finances the construction of priority sections of two new lines of the high-speed urban railway network of Tunis. The NIF grant of 28 million euro provides technical assistance to the contracting authority and the supervisor.</p>
+												<sec>
+													<title>Unnecessarily high advance disbursement of the NIF grant</title>
+													<p>In 2010, the Commission transferred the entire grant to the beneficiary. The financial institutions disbursed their loans only when the beneficiary needed the funds. As the project experienced significant implementation delays, the first loan disbursement took place only in 2013. Due to the delays, 24,5 million euro of the NIF grant was left unused for more than 3 years.</p>
+												</sec>
+											</sec>
+										</boxed-text>
+										<boxed-text id="fig">
+											<label>Figure</label>
+											<sec>
+												<fig>
+													<caption>
+														<title>ITF Cash flow movements</title>
+													</caption>
+													<graphic id="f1a" orientation="portrait" position="float" xlink:href="fig01.jpg"/>
+													<attrib>Source: ITF Secretariat.</attrib>
+												</fig>
+											</sec>
+										</boxed-text>
+									</p>
+								</sec>
+							</sec>
+						</sec>
+					</sec>
+				</sec>
+			</body>
+		</book-part>
+	</book-body>
+</book>

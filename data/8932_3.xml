@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Archiving and Interchange DTD v1.2 20190208//EN" "JATS-archivearticle1.dtd">
+<article xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" dtd-version="1.2" article-type="other">
+<front>
+	<journal-meta>
+		<journal-id journal-id-type="publisher-id">CISS</journal-id>
+		<journal-title-group>
+			<journal-title>CISS - Current Issues in Sport Science</journal-title>
+			<abbrev-journal-title>CISS</abbrev-journal-title>
+		</journal-title-group>
+		<issn pub-type="epub">2414-6641</issn>
+		<publisher>
+			<publisher-name>Bern Open Publishing</publisher-name>
+			<publisher-loc>Berne, Switzerland</publisher-loc>
+		</publisher>
+	</journal-meta>
+	<article-meta>
+		<article-id pub-id-type="doi">https://doi.org/10.36950/2022ciss007</article-id>
+		<title-group>
+			<article-title>Further thoughts on promoting sustainable behavior change in physical activity settings – comment on Hohberg et al.</article-title>
+		</title-group>
+		<contrib-group>
+			<contrib contrib-type="author">
+				<name>
+					<surname>Ntoumanis</surname>
+					<given-names>Nikos</given-names>
+				</name>
+				<email>nntoumanis@health.sdu.dk</email>
+				<xref ref-type="aff" rid="aff1">a</xref>
+				<xref ref-type="corresp" rid="cor1">author_email</xref>
+			</contrib>
+		<aff id="aff1">
+			<label>a</label>Danish Centre for Motivation and Behaviour Science, IOB, <institution>University of Southern Denmark</institution>, Odense, <country>Denmark</country> &amp; 
+			School of Health and Welfare, <institution>Halmstad University</institution>, Halmstad, <country>Sweden</country>
+		</aff>
+		</contrib-group>
+		<author-notes>
+		<corresp id="cor1">
+			<label>author_email</label>Corresponding author e-mail: <email>nntoumanis@health.sdu.dk</email>
+		</corresp>
+		</author-notes>
+		<pub-date pub-type="epub">
+			<day>22</day>
+			<month>11</month>
+			<year>2022</year>
+		</pub-date>
+		<volume>7</volume>
+		<history>
+			<date date-type="received">
+				<day>18</day>
+				<month>10</month>
+				<year>2022</year>
+			</date>
+			<date date-type="accepted">
+				<day>18</day>
+				<month>10</month>
+				<year>2022</year>
+			</date>
+		</history>
+		<permissions>
+			<copyright-statement>Copyright © 2022, N. Ntoumanis. This work is licensed under Creative Commons Attribution 4.0 International.</copyright-statement>
+			<copyright-year>2022</copyright-year>
+			<copyright-holder>N. Ntoumanis</copyright-holder>
+			<license license-type="open-access" xlink:href="https://creativecommons.org/licenses/by-nc/4.0/">
+				<license-p>This work is licensed under Creative Commons Attribution 4.0 International.</license-p>
+			</license>
+		</permissions>
+		<abstract>
+		<p><bold>Abstract</bold></p>
+		<p>In this commentary, I provide some reflections on the target article’s discussion of the role of affect for physical activity 
+		promotion. I also offer further thoughts and suggestions on how to promote sustainable behavior change, addressing both conceptual and 
+		methodological issues.</p>
+		</abstract>
+		<kwd-group>
+			<kwd>affect</kwd>
+			<kwd>physical activity</kwd>
+			<kwd>flexible habits</kwd>
+			<kwd>MOST design</kwd>
+			<kwd>multi-component intervention</kwd>
+			<kwd>sustainable</kwd>
+		</kwd-group>
+	</article-meta>
+</front>
+<body>
+	<sec id="introduction">
+	<title>Introduction</title>
+	<p>The Target Article by <xref ref-type="bibr" rid="r4">Hohberg et al., (2022)</xref> provides a number of interesting perspectives on how physical activity (PA) interventions 
+	should be conceptualized, implemented, and evaluated. The Move for Life intervention, highlighted in that article, is indeed a good 
+	example of how a whole systems approach can result not just in effective research projects, but also in community programs that are 
+	acceptable and can be implemented at scale. The authors of the Target Article make a number of interesting suggestions for future research 
+	for the field of physical activity promotion. These approaches cover a number of important conceptual and methodological issues.</p>
+	<sec id="further-thoughts">
+		<title>Further Thoughts</title>
+		<p>One of the authors’ recommendations is to pay more attention to affective mechanisms and dual process models. It is without doubt 
+		important that exercise and leisure time PA should be associated with pleasant (or at least not unpleasant!) affective experiences. 
+		Whilst the authors are correct in that some cognitive approaches are still frequently utilized in the PA promotion literature, such 
+		approaches have been heavily criticized (e.g., <xref ref-type="bibr" rid="r8">Sniehotta et al., 2014</xref>). In fact, other salient conceptual frameworks with a heavy 
+		cognitive component do acknowledge the role of positive affective experiences. For instance, self-determination theory (<xref ref-type="bibr" rid="r7">Ryan &amp; 
+		Deci, 2017</xref>) identifies intrinsic motivation, engaging in an activity because of the inherent pleasure and fun the activity provides, as 
+		the most adaptative form of motivation. Furthermore, interventions using this theory highlight, amongst other things, the important 
+		role of affective experiences when communicating about behavior change (e.g., acknowledging negative feelings, emphatic listening; 
+		<xref ref-type="bibr" rid="r10">Teixeira et al., 2020</xref>). Other integrative frameworks of behavioral regulation developed for PA, such as the Action Control Framework 
+		(<xref ref-type="bibr" rid="r6">Rhodes &amp; Gray, 2018</xref>) integrate affective processes (e.g., reflective affect, manipulated affect through volitional regulation, 
+		and reflexive affect) with cognitive mechanisms (e.g., intention formation). In short, the criticism that affective mechanisms are 
+		neglected in contemporary literature on the psychology of PA is potentially overstated. Where the problem might lie is that many 
+		interventions do not give affect the attention it deserves. The authors of the Target Article offer some good suggestions for 
+		supervised interventions that could prevent negative automatic affective valuations. These suggestions could be augmented by other 
+		examples that harness digital solutions and have the potential for upscaling. As an example, <xref ref-type="bibr" rid="r3">Conroy and Kim (2021)</xref> successfully tested 
+		a mobile application for conditioning associations between physical activity and pleasure.</p>
+		<p>Other potential fruitful avenues for future research on PA promotion might focus on promoting flexible habits. I use this term 
+		differently from how the authors use it. I mean habits that are built not on strict routines (e.g., going for a walk on the same 
+		time, in the same place, and following the same cue to walk), but flexible routines that allow variations in behavioral execution, and 
+		hence are less susceptible to unexpected obstacles. For instance, <xref ref-type="bibr" rid="r1">Beshears et al. (2021)</xref> showed that paying exercisers to exercise 
+		without a time constraint within any given day, led to more gym visits than paying exercises to exercise only within a two-hour 
+		window; this difference was evident even when the incentives were removed. We know from the habits literature that building strong 
+		habits promotes sustained behavior, including PA, but sometimes strict habits can become too inflexible and highly routinized, hence 
+		undermining the affective experience of exercise. For instance, variety has been proposed as an important ingredient of exercise 
+		motivation (<xref ref-type="bibr" rid="r9">Sylvester et al., 2018</xref>). Striking the right balance between consistency and flexibility in habit formation could be a 
+		key research priority for future research on the psychology of PA promotion. Habit is just one of many behavior change techniques. The 
+		recently proposed compendium of self-enactable techniques to change and self-manage motivation and behavior proposes over a hundred of 
+		such techniques (<xref ref-type="bibr" rid="r5">Knittle et al., 2021</xref>). Whilst not dismissing the role of the wider environment (e.g., social, physical, cultural) on 
+		individual behavior, changing such environments takes time and concerted effort. The compendium proposed by <xref ref-type="bibr" rid="r5">Knittle et al. (2021)</xref> could be 
+		a useful resource to assist people in identifying what they can do on their own to manage their motivation and behavior, including 
+		PA.</p>
+		<p>Lastly, and very briefly, in terms of methodological advances, besides the suggestion given by the authors of the Target Article 
+		for intensive longitudinal designs (which are useful for theory development and refinement), we should consider new ways of 
+		developing and implementing field interventions. One such promising framework from the field of behavioral science is the Multiphase 
+		Optimization Strategy (MOST; <xref ref-type="bibr" rid="r2">Collins, 2018</xref>). MOST designs can help PA researchers to fine-tune intervention components (e.g., through 
+		factorial experiments) so that only components that are most efficacious, cost-effective, and parsimonious (or whatever the trial 
+		optimization criteria are), are filtered through and subsequently used in randomized controlled trials. Currently, most of our PA 
+		interventions are multi-component and these components have been compiled based on personal preference, convenience, and/or past 
+		evidence, without being subjected to a rigorous selection procedure.</p>
+		</sec>
+	</sec>
+</body>
+<back>
+	<ack>
+		<sec sec-type="funding-statement">
+			<p><bold>Funding:</bold> The authors have no funding or support to report.</p>
+		</sec>
+		<sec sec-type="COI-statement">
+			<p><bold>Competing interests:</bold> The author has declared that no competing interests exist.</p>
+		</sec>
+		<sec sec-type="data-availability">
+			<p><bold>Data availability statement:</bold> All relevant data are within the paper.</p>
+		</sec>
+		<sec sec-type="editors">
+			<p><bold>Editorial team</bold></p>
+			<p><bold>Editor-in-Chief:</bold> Claudio R. Nigg, University of Bern, Switzerland</p>
+		</sec>
+		<sec sec-type="cite-as">
+			<p><bold>Cite as:</bold> Ntoumanis, N. (2022). Further thoughts on promoting sustainable behavior change in physical activity settings – comment on Hohberg et al. <italic>Current Issues in Sport Science (CISS), 7</italic>, Article 007. <ext-link ext-link-type="doi" xlink:href="https://doi.org/10.36950/2022ciss007">https://doi.org/10.36950/2022ciss007</ext-link></p>
+		</sec>
+	</ack>
+	<ref-list>
+	<title>References</title>
+		<ref id="r1"><mixed-citation>Beshears, J., Lee, H. N., Milkman, K. L., Mislavsky, R., &amp; Wisdom, J. (2021). Creating exercise habits using incentives: the 
+		tradeoff between flexibility and routinization. <italic>Management Science, 67</italic>(7), 3985-4642. 
+                    <article-title>T cell receptor signaling is limited by docking geometry to
+                        peptide-major histocompatibility complex
+                    </article-title>
+		<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1287/mnsc.2020.3706">https://doi.org/10.1287/mnsc.2020.3706</ext-link></mixed-citation></ref>
+		<ref id="r2"><mixed-citation>Collins, L., (2018). <italic>Optimization of behavioral, biobehavioral, and biomedical interventions: The Multiphase 
+		Optimization Strategy (MOST)</italic>. Springer.</mixed-citation></ref>
+		<ref id="r3"><mixed-citation>Conroy, D. E., &amp; Kim, I. (2021). Heartphone: Mobile evaluative conditioning to enhance affective processes and promote physical 
+		activity. <italic>Health Psychology, 40</italic>(12), 988-997. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1037/hea0000886">https://doi.org/10.1037/hea0000886</ext-link></mixed-citation></ref>
+		<ref id="r4"><mixed-citation>Hohberg, V., Kreppke, J.-N., Cody, R., Guthold, R., Woods, C., Brand, R., Dunton, G. F., Rothmann, A. J., Ketelhut, S., &amp; Nigg, 
+		C. R. (2022). What is needed to promote physical activity? Current trends and new perspectives in theory, intervention, and 
+		implementation. <italic>Current Issues in Sport Science (CISS), 7</italic>, Article 005. 
+		<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.36950/2022ciss005">https://doi.org/10.36950/2022ciss005</ext-link>?</mixed-citation></ref>
+		<ref id="r5"><mixed-citation>Knittle, K., Heino, M., Marques, M. M., Stenius, M., Beattie, M., Ehbrecht, F., Hagger, M. S., Hardeman, W., &amp; Hankonen, N. (2020). 
+		The compendium of self-enactable techniques to change and self-manage motivation and behaviour v.1.0. <italic>Nature Human Behaviour, 
+		4</italic>(2), 215–223. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1038/s41562-019-0798-9">https://doi.org/10.1038/s41562-019-0798-9</ext-link></mixed-citation></ref>
+		<ref id="r6"><mixed-citation>Rhodes, R. E, &amp; Gray, S. M. (2018). Affect in the process of action control of health-protective behaviors. In D.M. Williams, R. E. 
+		Rhodes &amp; M. T. Conner (Eds.), <italic>Affective Determinants of Health Behavior</italic> (pp. 21-47). Oxford University Press.</mixed-citation></ref>
+		<ref id="r7"><mixed-citation>Ryan, R. M., &amp; Deci, E. L. (2017). <italic>Self-determination theory: Basic psychological needs in motivation, development and 
+		wellness</italic>. Guilford Press.</mixed-citation></ref>
+		<ref id="r8"><mixed-citation>Sniehotta, F. F., Presseau, J., &amp; Araújo-Soares, V. (2014). Time to retire the theory of planned behaviour. <italic>Health 
+		Psychology Review, 8</italic>(1), 1-7. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1080/17437199.2013.869710">https://doi.org/10.1080/17437199.2013.869710</ext-link></mixed-citation></ref>
+		<ref id="r9"><mixed-citation>Sylvester, B. D., Curran, T., Standage, M., Sabiston, C. M., &amp; Beauchamp, M. R. (2018). Predicting exercise motivation and exercise 
+		behavior: A moderated mediation model testing the interaction between perceived exercise variety and basic psychological needs satisfaction. 
+		<italic>Psychology of Sport and Exercise, 36</italic>, 50-56. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/j.psychsport.2018.01.004">https://doi.org/10.1016/j.psychsport.2018.01.004</ext-link></mixed-citation></ref>
+		<ref id="r10"><mixed-citation>Teixeira, P. J., Marques, M. M., Silva, M. N., Brunet, J., Duda, J. L., Haerens, L., La Guardia, J., Lindwall, M., Lonsdale, C., Markland, 
+		D., Michie, S., Moller, A. C., Ntoumanis, N., Patrick, H., Reeve, J., Ryan, R. M., Sebire, S. J., Standage, M., Vansteenkiste, M., … Hagger, 
+		M. S. (2020). A classification of motivation and behavior change techniques used in self-determination theory-based interventions in 
+		health contexts. <italic>Motivation Science, 6</italic>(4), 438-455. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1037/mot0000172">https://doi.org/10.1037/mot0000172</ext-link></mixed-citation></ref>
+	</ref-list>
+</back>
+</article>

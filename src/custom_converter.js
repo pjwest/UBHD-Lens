@@ -12,9 +12,11 @@ var CustomConverter = function (options) {
 CustomConverter.Prototype = function () {
 
   this.test = function (xmlDoc) {
+console.log("customConverter test called");
     // check  NLM jats elements
     var article = xmlDoc.querySelector("article");
     if (article != null) {
+console.log("customConverter test found an article!!");
       return true;
     }
     return false;

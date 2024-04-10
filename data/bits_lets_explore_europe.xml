@@ -1,0 +1,279 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<book xml:lang="en"
+		xmlns="http://opoce" 
+		xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+		xmlns:mml="http://www.w3.org/1998/Math/MathML" 
+		xmlns:xi="http://www.w3.org/2001/BITS-XInclude" 
+		xmlns:xlink="http://www.w3.org/1999/BITS-xlink" 
+		xsi:schemaLocation="http://opoce ../../06-FinalSchema/BITS-book-01.07-20160204.xsd">
+	<book-meta>
+		<book-id book-id-type="doi">10.2775/3158</book-id>
+		<book-id book-id-type="Catalog number">NA-03-13-541-EN-C</book-id>
+		<book-title-group>
+			<book-title>Let ’s explore Europe!</book-title>
+		</book-title-group>
+		<contrib-group>
+			<role>Illustrations:</role>
+			<contrib>
+				<name>
+					<surname>Cordes</surname>
+					<given-names>Birte</given-names>
+				</name>
+			</contrib>
+			<contrib>
+				<name>
+					<surname>Köhler</surname>
+					<given-names>Ronald</given-names>
+				</name>
+			</contrib>
+		</contrib-group>
+		<pub-date>
+			<year>2013</year>
+		</pub-date>
+		<isbn>978-92-79-32925-8</isbn>
+		<publisher>
+			<publisher-name>European Commission</publisher-name>
+			<publisher-name>Directorate-General for Communication</publisher-name>
+			<publisher-name>Publications</publisher-name>
+			<publisher-loc>
+				<addr-line>1049 Brussels</addr-line>
+				<addr-line>BELGIUM</addr-line>
+			</publisher-loc>
+		</publisher>
+		<permissions>
+			<copyright-year>2013</copyright-year>
+			<copyright-holder>European Union,</copyright-holder>
+			<license>
+				<license-p>Reproduction is authorised</license-p>
+			</license>
+		</permissions>
+		<related-object object-type="book">
+			<year>2013</year>
+			<size units="pp">44</size>
+			<size units="cm" specific-use="publication">21.0 x 29.7</size>
+			<size units="cm" specific-use="pull-out book">10.5 x 14.8</size>
+		</related-object>
+		<custom-meta-group>
+			<custom-meta>
+				<meta-name>printed in</meta-name>
+				<meta-value>Belgium</meta-value>
+			</custom-meta>
+			<custom-meta>
+				<meta-name>printed on</meta-name>
+				<meta-value>white chlorine-free paper</meta-value>
+			</custom-meta>
+		</custom-meta-group>
+	</book-meta>
+	<book-body>
+		<book-part>
+			<body>
+				<sec>
+					<title>The story of the European Union</title>
+					<p>The Second World War ended in 1945. It had been a time of terrible destruction and killing, and it had started in Europe. How could the leaders of European countries stop such dreadful things from ever happening again? They needed a really good plan that had never been tried before.</p>
+					<sec>
+						<fig>
+							<caption>
+								<p>Robert Schuman.</p>
+							</caption>
+							<graphic id="f1" orientation="portrait" position="float" xlink:href="NA0313541ENC_002-1.jpg"/>
+						</fig>
+						<fig>
+							<caption>
+								<p>Jean Monnet.</p>
+							</caption>
+							<graphic id="f2" orientation="portrait" position="float" xlink:href="NA0313541ENC_002-2.jpg"/>
+						</fig>
+						<sec>
+							<title>A brand new idea</title>
+							<p>A Frenchman called Jean Monnet thought hard about this. He realised that there were two things a country needed before it could make war: iron for producing steel (to make tanks, guns, bombs and so on) and coal to provide the energy for factories and railways. Europe had plenty of coal and steel: that’s why European countries had easily been able to make weapons and go to war.</p>
+							<p>So Jean Monnet came up with a very daring new idea. His idea was that the governments of France and Germany – and perhaps of other European countries too – should no longer run their own coal and steel industries. Instead, these industries should be organised by people from all the countries involved, and they would sit around a table and discuss and decide things together. That way, war between them would be impossible!</p>
+							<p>Jean Monnet felt that his plan really would work if only European leaders were willing to try it. He spoke about it to his friend Robert Schuman, who was a minister in the French government. Robert Schuman thought it was a brilliant idea and he announced it in an important speech on 9 May 1950.</p>
+							<p>The speech convinced not only the French and German leaders but also the leaders of Belgium, Italy, Luxembourg and the Netherlands. They all decided to put their coal and steel industries together and to form a club they called the European Coal and Steel Community (ECSC). It would work for peaceful purposes and help rebuild Europe from the ruins of war. The ECSC was set up in 1951.</p>
+						</sec>
+						<sec>
+							<title>The common market</title>
+							<fig>
+								<caption>
+									<p>Bored at the border…</p>
+									<p>Queues like this used to be part of normal life in Europe.</p>
+								</caption>
+								<graphic id="f3" orientation="portrait" position="float" xlink:href="NA0313541ENC_002-3.jpg"/>
+							</fig>
+							<p>The six countries got on so well working together that they soon decided to start another club, called the European Economic Community (EEC). It was set up in 1957.</p>
+							<p>‘Economic’ means ‘to do with the economy’ – in other words, to do with money, business, jobs and trade.</p>
+							<p>One of the main ideas was that the EEC countries would share a ‘common market’, to make it easier to trade together. Until then, lorries and trains and barges carrying goods from one country to another always had to stop at the border, and papers had to be checked and money called ‘customs duties’ had to be paid. This held things up and made goods from abroad more expensive.</p>
+							<p>The point of having a common market was to get rid of all those border checks and delays and customs duties, and to allow countries to trade with one another just as if they were all one single country.</p>
+						</sec>
+						<sec>
+							<title>Food and farming</title>
+							<fig>
+								<caption>
+									<p>Machines like this are used to harvest wheat and other crops.</p>
+								</caption>
+								<graphic id="f4" orientation="portrait" position="float" xlink:href="NA0313541ENC_002-4.jpg"/>
+							</fig>
+							<p>The Second World War had made it very difficult for Europe to produce food or to import it from other continents. Europe was short of food even in the early 1950s. So the EEC decided on an arrangement for paying its farmers to produce more food, and to make sure that they could earn a decent living from the land.</p>
+							<p>This arrangement was called the ‘common agricultural policy’ (or CAP). It worked well. So well, in fact, that farmers ended up producing too much food and the arrangement had to be changed! Nowadays, the CAP also pays farmers to look after the countryside.</p>
+						</sec>
+					</sec>
+					<sec>
+						<title>From EEC to European Union</title>
+						<p>The common market was soon making life easier for people in the EEC.</p>
+						<p>They had more money to spend, more food to eat and more varied things in their shops. Other neighbouring countries saw this and, in the 1960s, some of them began asking whether they too could join the club.</p>
+						<p>After years of discussions, the United Kingdom, Denmark and Ireland joined in 1973. It was the turn of Greece in 1981, followed by Portugal and Spain in 1986, and Austria, Finland and Sweden in 1995.</p>
+						<fig>
+							<caption>
+								<p>Joining the club. In this picture, Greece signs up for membership.</p>
+							</caption>
+							<graphic id="f5" orientation="portrait" position="float" xlink:href="NA0313541ENC_002-5.jpg"/>
+						</fig>
+						<p>So now the club had 15 members.</p>
+						<p>Over these years, the club was changing. By the end of 1992 it had finished building the ‘single market’ (as it became known), and it was doing a lot more besides. For example, EEC countries were working together to protect the environment and to build better roads and railways right across Europe. Richer countries helped poorer ones with their road building and other important projects.</p>
+						<fig>
+							<caption>
+								<p>Protecting the environment includes reducing air pollution – for example, using wind energy to make electricity.</p>
+							</caption>
+							<graphic id="f6" orientation="portrait" position="anchor" xlink:href="NA0313541ENC_002-6.jpg"/>
+						</fig>
+						<p>To make life easier for travellers, most EEC countries had got rid of passport checks at the borders between them. A person living in one member country was free to go and live and find work in any other member country. The governments were discussing other new ideas too – for example, how policemen from different countries could help one another catch criminals, drug smugglers and terrorists.</p>
+						<fig>
+							<caption>
+								<p>A policeman and his dog check luggage for drugs.</p>
+							</caption>
+							<graphic id="f7" orientation="portrait" position="anchor" xlink:href="NA0313541ENC_002-7.jpg"/>
+						</fig>
+						<p>In short, the club was so different and so much more united that, in 1992, it decided to change its name to the ‘European Union’ (EU).</p>
+					</sec>
+					<sec>
+						<title>Bringing the family together</title>
+						<p>Meanwhile, exciting things were happening beyond the EU’s borders. For many years, the eastern and western parts of Europe had been kept apart. They weren’t at war, but their leaders disagreed strongly. The rulers of the eastern part believed in a system of government called ‘Communism’ which did not allow people much freedom. Because of the way they were governed, those countries were poor compared to western Europe.</p>
+						<p>The division between east and west was so strong it was often described as an ‘iron curtain’. In many places the border was marked by tall fences or a high wall, like the one that ran through the city of Berlin and split Germany in two. It was very difficult to get permission to cross this border.</p>
+						<p>Finally, in 1989, the division and disagreement ended. The Berlin Wall was knocked down and the ‘iron curtain’ ceased to exist. Soon, Germany was reunited. The peoples of the central and eastern parts of Europe chose for themselves new governments that got rid of the old, strict Communist system.</p>
+						<fig position="anchor">
+							<caption>
+								<p>1989: demolishing the Berlin Wall.</p>
+							</caption>
+						</fig>
+						<p>They were free at last! It was a wonderful time of celebration.</p>
+						<p>The countries that had gained freedom began asking whether they could join the European Union, and soon there was quite a queue of ‘candidate’ countries waiting to become EU members.</p>
+						<p>Before a country can join the European Union, its economy has to be working well. It also has to be democratic – in other words, its people must be free to choose who they want to govern them. And it must respect human rights. Human rights include the right to say what you think, the right not to be put in prison without a fair trial, the right not to be tortured, and many other important rights as well.</p>
+						<p>The former Communist countries worked hard at all these things and, after a few years, eight of them were ready: the Czech Republic, Estonia, Hungary, Latvia, Lithuania, Poland, Slovakia and Slovenia.</p>
+						<p>They joined the EU on 1 May 2004, along with two Mediterranean islands – Cyprus and Malta. On 1 January 2007, two more former Communist countries, Bulgaria and Romania, joined the group. Croatia joined the EU on 1 July 2013, bringing the total to 28 countries.</p>
+						<p>Never before have so many countries joined the EU in such a short time. This is a real ‘family reunion’, bringing together the eastern, central and western parts of Europe.</p>
+						<fig>
+							<caption>
+								<p>The flags of the 28 members of the EU.</p>
+							</caption>
+							<graphic id="f8" orientation="portrait" position="float" xlink:href="NA0313541ENC_002-8.jpg"/>
+						</fig>
+					</sec>
+				</sec>
+				
+				<sec>
+					<title>What the EU does</title>
+					<p content-type="lead-paragraph">The EU tries to make life better in all sorts of ways. Here are some of them.</p>
+					<sec>
+						<title>Climate change and the environment</title>
+						<fig position="float">
+							<caption>
+								<p>Pollution crosses borders, so European countries work together to protect the environment.</p>
+							</caption>
+							<graphic id="f9" orientation="portrait" xlink:href="NA0313541ENC_002-9.jpg"/>
+						</fig>
+						<p>The environment belongs to everyone, so countries have to work together to protect it. The EU has rules about stopping pollution and about protecting (for example) wild birds. These rules apply in all EU countries and their governments have to make sure they are obeyed.</p>
+						<p>Climate change – also known as global warming – is another problem that countries cannot tackle alone. EU countries have therefore agreed to work together to lower the amount of emissions they produce that harm the atmosphere and cause global warming. The EU is also trying to influence other countries to do the same.</p>
+					</sec>
+					<sec>
+						<title>The euro</title>
+						<fig position="float">
+							<caption>
+								<p>The euro is used in many EU countries.</p>
+							</caption>
+							<graphic id="f10" orientation="portrait" xlink:href="NA0313541ENC_002-10.jpg"/>
+						</fig>
+						<p>In years gone by, each country in Europe had its own kind of money, or ‘currency’. Now there is one single currency, the euro, which all EU countries can share if they wish. Having one currency makes it easier to do business and to travel and shop all over the EU without having to change from one currency to another. Today, more than two thirds of the EU’s citizens are using the euro instead of the old currencies.</p>
+						<p>If you compare euro coins you will see that on one side there is a design representing the country it was made in. The other side is the same for all the countries.</p>
+					</sec>
+					<sec>
+						<title>Freedom!</title>
+						<fig position="float">
+							<caption>
+								<p>Students from different countries study together, with help from the EU.</p>
+							</caption>
+							<graphic id="f11" orientation="portrait" xlink:href="NA0313541ENC_002-11.jpg"/>
+						</fig>
+						<p>People in the EU are free to live, work or study in whichever EU country they choose, and the EU is doing all it can to make it simple to move home from one country to another. When you cross the borders between most EU countries, you no longer need a passport. The EU encourages students and young people to spend some time studying or training in another European
+country.</p>
+					</sec>
+					<sec>
+						<title>Jobs</title>
+						<fig position="float">
+							<caption>
+								<p>Training people to do new jobs is very important.</p>
+							</caption>
+							<graphic id="f112" orientation="portrait" xlink:href="NA0313541ENC_002-12.jpg"/>
+						</fig>
+						<p>It’s important for people to have jobs that they enjoy and are good at. Some of the money they earn goes to pay for hospitals and schools, and to look after old people. That’s why the EU is doing all it can to create new and better jobs for everyone who can work. It helps people to set up new businesses, and provides money to train people to do new kinds of work.</p>
+					</sec>
+					<sec>
+						<title>Helping regions in difficulty</title>
+						<fig position="float">
+							<caption>
+								<p>The EU helps pay for new roads.</p>
+							</caption>
+							<graphic id="f13" orientation="portrait" xlink:href="NA0313541ENC_002-13.jpg"/>
+						</fig>
+						<p>Life is not easy for everyone everywhere in Europe. In some places there are not enough jobs for people, because mines or factories have closed down. In some areas, farming is hard because of the climate, or trade is difficult because there are not enough roads and railways.</p>
+						<p>The EU tackles these problems by collecting money from all its member countries and using it to help regions that are in difficulty. For example, it helps pay for new roads and rail links, and it helps businesses to provide new jobs for people.</p>
+					</sec>
+					<sec>
+						<title>Helping poor countries</title>
+						<fig position="float">
+							<caption>
+								<p>The EU delivers food to people in need.</p>
+							</caption>
+							<graphic id="f14" orientation="portrait" xlink:href="NA0313541ENC_002-14.jpg"/>
+						</fig>
+						<p>In many countries around the world, people are dying or living difficult lives because of war, disease and natural disasters such as droughts or floods. Often these countries do not have enough money to build the schools and hospitals, roads and houses that their people need.</p>
+						<p>The EU gives money to these countries, and sends teachers, doctors, engineers and other experts to work there. It also buys many things that those countries produce without charging customs duties. That way, the poor countries can earn more money.</p>
+					</sec>
+				</sec>
+
+				<sec>
+					<title>Peace</title>
+					<fig position="float">
+						<caption>
+							<p>The European flag.</p>
+						</caption>
+						<graphic id="f15" orientation="portrait" xlink:href="NA0313541ENC_002-15.png"/>
+					</fig>
+					<p>The European Union has brought many European countries together in friendship. Of course, they don’t always agree on everything but, instead of fighting, their leaders sit round a table to sort out their disagreements.</p>
+					<p>
+						<bold>So the dream of Jean Monnet and Robert Schuman has come true.</bold>
+					</p>
+					<p>The EU has brought peace among its members. It is also working for lasting peace among its neighbours and in the wider world. For example, EU soldiers and police officers are helping keep the peace in the former Yugoslavia, where there was bitter fighting not many years ago.</p>
+					<p>These are just some of the things the EU does: there are many more. In fact, being in the European Union makes a difference to just about every aspect of our lives. What things should the EU be doing, or not doing? That’s for the people in the EU to decide. How can we have our say? Find out in the next chapter.</p>
+					<p>Europe has its own flag and its own anthem – Ode to Joy from Beethoven’s ninth symphony. The original words are in German, but when used as the European anthem it has no words – only the tune. You can hear it on the Internet:</p>
+					<p>
+						<ext-link ext-link-type="uri" xlink:href="http://europa.eu/about-eu/basic-information/symbols/anthem/index_en.htm">europa.eu/about-eu/basic-information/symbols/anthem/index_en.htm</ext-link>
+					</p>
+				</sec>
+				<sec>
+					<title>The EU and its neighbours</title>
+					<p>Match the capital cities with their countries?</p>
+					<fig>
+						<graphic id="f16" orientation="portrait" position="background" xlink:href="NA0313541ENC_002-16.jpg"/>
+						<p content-type="legend-title">Key:</p>
+						<p>The <bold>coloured countries</bold> are members of the European Union (EU).</p>
+						<p>The <bold>striped countries</bold> are planning to join the EU.</p>
+						<p>The <bold>other countries</bold>, including those shown by a small white circle, are neighbours of the EU.</p>
+						<p>The <bold>dots</bold> show where the capital cities are.</p>
+						<p>Vatican City is in Rome.</p>
+						<p>Some islands and other pieces of land belonging to France, Portugal and Spain are part of the EU. But they are a long way from mainland Europe, so we have put them in the box (top right).</p>
+						<p>(*) UNSCR 1244</p>
+					</fig>
+				</sec>
+			</body>
+		</book-part>
+	</book-body>
+</book>
